@@ -88,9 +88,6 @@ The ability to meet repayment obligations and clear the debt may be from:
 * Asset equity including the sale of an asset (other than primary place of residence except where the sale and downsize of the property is appropriate)
 
 
-### 
-
-
 #### **[2\.1\.1 Maximum Loan Term for interest only (IO) products](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#2.1.1 Maximum Loan Term for interest only (IO) products>)**
 
 
@@ -194,9 +191,6 @@ Where there is more than one applicant / income reliant guarantor,
 	+ Shared Equity Guarantee
 
 
-### 
-
-
 ## [3\. Process to follow](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Process_to_follow__>)
 
 
@@ -257,9 +251,6 @@ Refer to Guidelines for [*Examples of Acceptable and Non\-compliant Responses to
 
  7\. Record the result of the calculation as the ‘account balance'
  
-### 
-
-
 #### [3\.2\.2 ASIC MoneySmart Superannuation Calculator settings](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#3.2.2 ASIC MoneySmart Superannuation Calculator settings>)
 
 
@@ -290,9 +281,6 @@ Refer to Guidelines for [*Examples of Acceptable and Non\-compliant Responses to
 
 
 ### [4\.1 Examples of acceptable and non\-compliant responses to exit strategy questions](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#G_Examples_of_acceptable_and_non-complia>)
-
-
-### 
 
 
 
@@ -455,9 +443,6 @@ Commercial real estate is not acceptable as security collateral in a
 ## [2\. Rules you must apply](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Rules_you_must_apply>)
 
 
-### 
-
-
 ### [2\.1 Certificate of title](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Certificate_of_title>)
 
 
@@ -533,9 +518,6 @@ Brokers should advise the applicant(s) that second mortgage scenarios
   
 
  For more information, refer to [*Loan to Value Ratio (LVR)*](https://creditriskpolicies.westpac.com.au/app/answers/answer_view/a_id/1000684)
-### 
-
-
 ### [**2\.2 Assessing security collateral requirements \- standard real estate**](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Assessing_security_collateral_requirem>)
 
 
@@ -1002,12 +984,6 @@ For the security to be acceptable the following conditions must be met:
 ## [3\. Process to follow](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#P_Process_to_follow>)
 
 
-### 
-
-
-### 
-
-
 [3\.1 Home for Homes (H4H)](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#P_Home_for_Homes_(H4H)>)  
 
 Participation in the H4H scheme is voluntary for our customers and they
@@ -1348,9 +1324,6 @@ Refer to  [Lending to Non\-Australian Citizens](https://creditriskpolicies.westp
   
 
  ### [2\.6 LVR by property value](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_LVR_by_property_value>)
-
-
-#### 
 
 
 
@@ -2285,17 +2258,11 @@ Postcodes by State/Territory have been segmented into specific ‘Categories’ 
 | 6083 | | | | 6084 | 6558 | | | | | | | |
 
 
-### 
-
-
 
 
 | **2021 WA Cyclone Seroja locations** Maximum age of an existing valuation is as per standard policy | | | | | | | |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6536 | | | | | | | |
-
-
-### 
 
 
 
@@ -2315,9 +2282,6 @@ Postcodes by State/Territory have been segmented into specific ‘Categories’ 
 | **2021 NSW Flood locations.** Maximum age of an existing valuation is as per standard policy | | | | | | | | | |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2430 | | | | | | | | | |
-
-
-### 
 
 
 
@@ -2406,13 +2370,7 @@ If the below criteria, applies the valuation cannot be reviewed / challenged:
 * If a loan is mortgage insured by Helia (formerly Genworth)
 
 
-### 
-
-
 ## [3\. Process to follow](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#P_Process_to_follow>)
-
-
-### 
 
 
 ### [3\.1 Desktop Valuation](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#P_Desktop_Valuation>)
@@ -2444,9 +2402,6 @@ If the below criteria, applies the valuation cannot be reviewed / challenged:
 ### [3\.2 Residential Short Form Valuation](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#P_Residential_Short_Form_Valuation>)
 
 
-### 
-
-
 #### [**3\.2\.1 Reviewing and actioning a Residential Short Form Valuation:**](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#P_Reviewing_and_actioning_a_Residential_>)
 
 
@@ -2460,9 +2415,6 @@ Residential Short Form valuation reports showing any of the following features m
 | Any other Critical Risk or adverse features highlighted in valuer's comments (other than above) 1\. "Critical" risks \- specific to the subject property  and/or considered to have a negative impact on marketability  or value of the subject property  2\. Adverse features evident on the valuation.     Defined as "Any material adverse risks affecting the subject property " including but not limited to: * property incomplete or poorly maintained and in need of repairs (Essential Repairs / Repairs \>$5k). * being sold by a builder/developer (where valuer comment relates to Rebates, cash\-back arrangements evident or other adverse comments relating to Purchase or Building Contracts) * any part of the property not being used for its designed purpose, is something other than strictly residential, any structures/ improvements that may not be council approved * property is affected by a "critical risk" attributable to any heritage, location or environmental issues (the risk is specific to the property and is not generally accepted by the market) * the property saleability and/or value may be adversely affected by a "critical risk" specific to the property, or known/observable encumbrances, issues or on\-going heightened concern as advised by the valuer, that is not generally accepted by the market or results is restricted marketability (e.g. RTA affectation, restricted use, adverse easements , proximity to Railway Lines , Commercial/Industrial Area, Adverse Zoning, restricted use/unique in nature) * Selling period \>6 months * Minimum requirements for Sales Evidence unavailable/ Lack of acceptable Comparable Sales. (At least three (3\) comparable sales presented. Comparable sales to be like\-for\-like (property), preferably within 15% variance and within 6 months of the valuation date.)  NOTE: Permissible for two (2\) comparable sales held within acceptable parameters, in addition with one (1\) sale outside supported by a satisfactory explanation and where other strengths are evident within the application. |
 | Any scenario requiring referral as detailed under [Risk Rating of Valuation Report](#P_Risk_Rating_of_Valuation_Report)*.* |
 | Non\-Mortgage Insured loan | Any scenario requiring referral as detailed under [Risk Rating of Valuation Report](#P_Risk_Rating_of_Valuation_Report)*.* |
-
-
-### 
 
 
 ### [**3\.3 Reviewing and actioning a Residential Long Form Valuation**](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#3.3 Reviewing and actioning a Residential Long Form Valuation>)
@@ -3664,9 +3616,6 @@ For further requirements refer to:
  *Construction loans using 'Construction' valuation where there is additional building work outside of builder's fixed price contract*](#P_Construction_loans_using_'Construction)
 
 
-### 
-
-
 ### [2\.6 Documentation Required From Borrower](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Documentation_Required_From_Borrower>)
 
 
@@ -3803,9 +3752,6 @@ Before the borrower makes any changes to council approved plans,
  
 
 
-#### 
-
-
 ### [2\.11 Progress Payments not required](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Progress_Payments_not_required>)
 
 
@@ -3818,9 +3764,8 @@ Before the borrower makes any changes to council approved plans,
 
  
 
-#### 
 
-
+ 
   
 
  ### [2\.12 Quantity Surveyor (QS) Report](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Quantity_Surveyor_(QS)_Report>)
@@ -4434,9 +4379,6 @@ Where verification document is used for Income and/or Commitments  .
 | Other name shortenings | *Cleaning Aust.* | Cleaning Australia |
 | Employer / supplier differs      E.g. business or trading name of the controlling company | *BankSA* | Westpac Banking Corporation | The verification document is acceptable where: * The legal name can be verified via an alternate document or source, e.g. ABN search   **OR** * A comment is added to the loan origination system justifying the acceptance of the name variation / document   **Note:** If an additional supporting document is obtained  it must be uploaded to OBP. |
 | Employer name missing | No employer name | Westpac Banking Corporation | The verification document is acceptable where:  * The legal name can be verified via an ABN search |
-
-
-#### 
 
 
 #### Category 4: Other name discrepancy examples
@@ -6509,9 +6451,6 @@ The LVR calculation allows us to determine whether the loan requires mortgage in
 | **Legend** 1 Add a 20% buffer to the value of a debt (higher of limit or outstanding balance) secured by a first mortgage to an ‘other’ financial institution.     SGB, BSA, BoM and RAMS are considered to be ‘other’  financial institutions. | |
 
 
-### 
-
-
 #### [2\.4\.2 Shared Equity Guarantee](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#2.4.2 Shared Equity Guarantee>)
 
 
@@ -6529,9 +6468,6 @@ The LVR calculation allows us to determine whether the loan requires mortgage in
 | **Available Equity in the Shared Equity Guarantee Collateral** | **Determine:**  **A.** the guarantee security collateral  value **B.**  the maximum non LMI LVR as per  [Loan to Value (LVR)](https://creditriskpolicies.westpac.com.au/app/answers/answer_view/a_id/1000684)  policy **C  1  .**  any existing   commitments (such as mortgages, pledges, debts, guarantees, pledges,  business overdrafts or other liabilities) which have a right against  the guarantee security collateral **D.** The ownership percentage of the borrower and the  guarantor/s    **Available Equity \=**  ( **A ‘** Guarantor’s security collateral value’  *multiplied by* **B**  ‘Non LMI LVR%’) *minus*  **C  1**  ‘Existing commitments’ |
 | **LVR** | Refer to  [*Loan to Value (LVR)*](https://creditriskpolicies.westpac.com.au/app/answers/answer_view/a_id/1000684)  policy\>LVR Calculation |
 | **Legend** 1  Add a 20% buffer to the value of a debt (higher of  limit or outstanding balance) secured by a first mortgage to an  ‘other’ financial institution.     SGB, BSA, BoM and RAMS are considered to be ‘other’ financial  institutions. | |
-
-
-### 
 
 
 ### [2\.5 Providing advice to borrowers and guarantors](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Providing_advice_to_borrowers_and_guar>)
@@ -6666,9 +6602,6 @@ Where a spouse is providing a guarantee, it is strongly recommended to insist on
 The ‘Financial Support Acknowledgement and Undertaking’ must be signed by the guarantor for the below guarantee types:
 * Spousal\-Income Guarantee
 * Spousal\-Income \+ Security Guarantee
-
-
-## 
 
 
 ### [2\.8 Accepting a guarantee\- three (3\) day requirement](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#P_Accepting_a_guarantee-_three_day_requi>)
@@ -6829,9 +6762,6 @@ The initial amount of prepaid interest can
 A formal face to face interview should be completed with the loan applicant(s) or guarantor(s) before acceptance of the loan offer agreement.
 **The interview process is to be carried out without the presence of a third party – must be between the Broker and applicant(s) or guarantor(s).**
 
-### 
-
-
 ### [2\.3 Customers Experiencing Vulnerability](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Customers_Experiencing_Vulnerability>)
 
 
@@ -6873,9 +6803,6 @@ Consent forms and verification of identity (VOI) must be completed prior to ‘ 
 The in principle approval (conditional approval) letter or notification has a validity period of 90 days from the most recent application Review and Submit date (both IPA and Full application stage). The expiry period ends either when the customer mortgage application is unconditionally approved, or the consumer mortgage application is edited and re\-assessed resulting in a new in principle approval (conditional approval). 
 
 
-### 
-
-
 ### [2\.5 Full application](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#2.5 Full application>)
 
 
@@ -6901,9 +6828,6 @@ Consent forms and verification of identity (VOI) must be completed prior to ‘ 
 * [**Responsible Lending Start Date**](#2.6 Responsible Lending Start Date)
 
 
-#### 
-
-
 ### [**2\.6 Responsible Lending Start Date**](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#2.6 Responsible Lending Start Date>)
 
 
@@ -6914,9 +6838,6 @@ Consent forms and verification of identity (VOI) must be completed prior to ‘ 
  * [‘Loan Expiry Types’](#R_Loan_Expiry_Types_and_Rules) and rules for the ‘[**Responsible Lending Start Date’**](#2.6 Responsible Lending Start Date)
 * Refer to ‘[Document Standards](https://creditriskpolicies.westpac.com.au/app/answers/answer_view/a_id/1000692)’ for the maximum age of verification
  documents
-
-
-### 
 
 
 ### [2\.7 Validation of information provided by the customer](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#2.7 Validation of information provided by the customer>)
@@ -6948,18 +6869,12 @@ Consent forms and verification of identity (VOI) must be completed prior to ‘ 
 | **1** Internal  * For Westpac brand, St George Bank Group and RAMS accounts  are considered to be **external**. | | |
 
 
-#### 
-
-
 ### [2\.8 Currency of Verification](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Currency_of_Verification>)
 
 
 Verifications completed in the consumer mortgage application remain current until any one or more of the following occur:
 * Any ‘loan expiry’ type occurs. Refer to *‘ [Loan Expiry Types and Rules’](#R_Loan_Expiry_Types_and_Rules)*
 * Advice is received that information upon which the verification was based has changed (e.g. income details change).
-
-
-### 
 
 
 ### [2\.9 Pipeline Authority Policy](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#2.9 Pipeline Authority Policy>)
@@ -7156,9 +7071,6 @@ The below expiry dates apply to loan applications
 | **11** | * **The customer disputes the repayment history on the CCR or** * **The history on the CCR is inconsistent with repayment history on another supporting document** * **and results in the facility not demonstrating satisfactory repayment history requirements** | Application cannot proceed until issue is resolved | To query the facility and have the bureau content amended:  * The applicant may choose to make direct contact with the credit provider |
 
 
-## 
-
-
   
 
   
@@ -7231,13 +7143,9 @@ The below expiry dates apply to loan applications
 
   
 
- ### 
+ 
 
-
-## [2\. Rules you must apply](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Rules_you_must_apply>)
-
-
-### 
+ ## [2\. Rules you must apply](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Rules_you_must_apply>)
 
 
 ### [2\.1 Capturing customer declared living expenses](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Capturing_cust_decl_living_expenses_ap>)
@@ -7430,9 +7338,6 @@ It is a mandatory to capture these details within the loan assessment system.
 | Spouse is also a borrower | Apportioning the household living expenses against these parties is not restricted | Restriction applies to apportioning 'Investment Property Costs (Including Insurance)'.  Refer to *[Investment Property Costs (Including Insurance)](#Investment Property Costs (Including Insurance)) \>  Additional conditions* |
 | Spousal \- Security Guarantee | Refer to [Serviceability Assessment](https://creditriskpolicies.westpac.com.au/app/answers/answer_view/a_id/1000710) \>  Apportioned household expenses and shared commitments \- Spousal same  household. |
 | Spouse is not a borrower or guarantor |
-
-
-#### 
 
 
 ### [2\.14 Definition of a Dependant](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Definition_of_a_Dependant>)
@@ -8081,9 +7986,6 @@ All migrant temporary visa borrowers must provide a copy of their
 
 
 This policy outlines the parameters for assessing loan applications that involves non\-resident borrower(s) in a consumer mortgage application.
-### 
-
-
 ## [2\. Rules you must apply](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Rules_you_must_apply>)
 
 
@@ -8223,9 +8125,6 @@ The copy of the Insurance Policy or Certificate of Currency must include the fol
 * Expiry date of the policy
 * Adequate description of the location of the security collateral, e.g. address, title details
 * Amount of cover on a replacement and reinstatement basis for an amount at least equal to the full replacement cost
-
-
-## 
 
 
 # [03\.16 Self\-Employed Applicants](https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy)
@@ -9162,9 +9061,6 @@ When reviewing the financial information provided by the borrower if the
  ## [2\. Rules you must apply](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Rules_you_must_apply>)
 
 
-### 
-
-
 ### [2\.1 Debt Service Coverage Ratio](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Debt_Service_Coverage_Ratio>)
 
 
@@ -9285,9 +9181,6 @@ If serviceability fails due to the ‘Default shared commitment rule’, the app
 #### [2\.5\.2 Apportioned shared commitment rule](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Apportioned_shared_commitment_rule>)
 
 
-#### 
-
-
 
 
 | Definition | This policy option:* can be used when serviceability fails  based on the [‘Default shared commitment rule’](#R_Default_shared_commitment_rule) * allows the borrower’s or income reliant  guarantor’s  serviceability to be assessed  using their apportioned share of repayments  for an **existing** shared commitment (i.e.  debts / liabilities) | |
@@ -9371,9 +9264,6 @@ The *Serviceability Repayment Amount* is the repayment amount which is ultimatel
 | [1](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#Any liability is being cleared and closed using loan funds>) | The payment is not included | * The current commitment position (pre clearance) must be loaded in ApplyOnline * The current commitment payment (pre clearance) must be loaded in ApplyOnline  Refer [*Serviceability Repayment Amount*](#R_Serviceability_Repayment_Amount)* Verification as per [*Commitments*](https://creditriskpolicies.westpac.com.au/app/answers/answer_view/a_id/1000690) |
 | Any commitment is being  **reduced** using loan  funds1 | The payment on the lower limit can be used, if the reduction will result in a reduced payment | * The current commitment position (pre reduction) and the resulting liability position (post reduction) must be loaded in ApplyOnline * The resulting payment (post reduction) is to be loaded in ApplyOnline  Refer [*Serviceability Repayment Amount*](#R_Serviceability_Repayment_Amount)* Verification as per [*Commitments*](https://creditriskpolicies.westpac.com.au/app/answers/answer_view/a_id/1000690) |
 | **Legend** 1 Refer to [*Eligibility*](https://creditriskpolicies.westpac.com.au/app/answers/answer_view/a_id/1000694)  policy which lists certain commitments which may not be  cleared and closed, or reduced from loan proceeds, e.g.  Tax Debts, Tax Bills and Margin  Loans. | | |
-
-
-#### 
 
 
 #### [**2\.5\.5 Excluded mortgage liability**](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#2.5.3.2 Excluded mortgage liability>)
@@ -9509,9 +9399,6 @@ A current commitment position may only be amended:
 | Categorised according to | * Borrower income band * Geographical location of the borrower’s place of residence (including overseas residence) * Marital status * Number of dependants *(refer to* *[Living Expenses](https://creditriskpolicies.westpac.com.au/app/answers/answer_view/a_id/1000700)**policy)* |
 | Rules | * The geographical location is based on the borrower’s residential postcode post loan settlement \- see [*Monthly Household Expenditure Measure \- Geographic location*](#2.8.4 Monthly Household Expenditure Measure - Geographic Location)[.](#R_Monthly_Household_Expenditure_Measure) * The post settlement postcode is mandatory to calculate HEM. If the application is an In Principal Approval, the post settlement postcode is to be captured as accurately as possible. * Applicant's gross income for the HEM band is calculated based on the total: 	+ Gross annual 	 salary / wages income 	 (unshaded) ***plus*** 	+ Gross annual 	 rental income 	 (unshaded) ***less*** thehigher 	 of(customer 	 declared investment property 	 costs or 10% of gross 	 unshaded rental 	 income) ***less*** investment 	 loan interest costs (where 	 negative gearing has been 	 used) 	 ***plus*** 	+ All other gross annual income (unshaded) |
 | Household definition | Refer to [Glossary](https://creditriskpolicies.westpac.com.au/app/answers/answer_view/a_id/1000723) |
-
-
-### 
 
 
 #### [**2\.8\.1 Monthly Household Expenditure Measure \- Table**](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Monthly_Household_Expenditure_Measure_>)
@@ -10418,9 +10305,6 @@ Income from other sources e.g. rental income, may be used for serviceability ass
 | **Other requirements*** Security type must be residential,  except where permitted under  [Practice Premises Offered as Security Collateral](#R_Practice_premises_offered_as_security_) | | |
 
 
-### 
-
-
 ### [2\.5 Practice premises offered as security collateral](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Practice_premises_offered_as_security_>)
 
 
@@ -10430,9 +10314,6 @@ Income from other sources e.g. rental income, may be used for serviceability ass
 | --- | --- |
 | If LMI  **is not**  required under this policy | Practice premises that are a converted residential  house, where documentation can be provided that confirms  the collateral security is zoned for use as either  business premises or residential occupation and can be  easily converted back to residential accommodation, may  be treated as residential housing.  Care should be taken in these cases to ensure that the  collateral security is valued as a residential property. |
 | If LMI  **is** required  under this policy | Standard policy applies \- no allowable variance is available under this package. |
-
-
-### 
 
 
 ### [2\.6 Transfer of company debt to personal names in the consumer portfolio](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Transfer_of_company_debt_to_personal_n>)
@@ -10445,9 +10326,6 @@ Income from other sources e.g. rental income, may be used for serviceability ass
 | --- | --- |
 | If LMI  **is not**  required under this policy | * Requests to transfer a facility to personal name/s will be accommodated where it can be established that a personal debt was obtained in a company name with the outstanding debt appearing on the company's latest balance sheet, and the collateral security is held in the personal name/s. * Refinance of working capital, equipment finance and all other business\-related lending purposes are specifically excluded * Broker will need to verify the original transaction and provide appropriate submission notes in ApplyOnline |
 | If LMI  **is** required  under this policy | Standard policy applies \- no allowable variance is available under this package. |
-
-
-## 
 
 
 ## [3](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#P_Process_to_follow>)**. Process to follow**
@@ -10736,12 +10614,6 @@ The applicant must be obtaining an income from their
 | --- | --- |
 | If LMI **is not**  required under this policy | * Requests to transfer a facility to personal name/s will be accommodated where it can be established that a personal debt was obtained in a company name with the outstanding debt appearing on the company's latest balance sheet, and the collateral security is held in the personal name/s. * Refinance of working capital, equipment finance and all other business\-related lending purposes are specifically excluded * Brokers will need to verify the original transaction and provide appropriate submission notes in ApplyOnline |
 | If LMI  **is**  required under this policy | * Standard policy applies \- no allowable variance is available under this package. |
-
-
-### 
-
-
-## 
 
 
 # [03\.22 Special Packages \- Employee (Staff) and Contractor Home Loan](https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy)
@@ -11162,9 +11034,6 @@ Evidence of genuine savings is to be retained on the file, refer
 
  Also refer to [*Unacceptable sources of genuine savings*](#R_Unacceptable_sources_of_genuine_saving)*.*
 
-### 
-
-
 #### [2\.1\.1 Amount to be verified](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Amount_to_be_verified>)
 
 
@@ -11483,9 +11352,6 @@ If at the time of assessment, a shortfall in customer contribution is apparent, 
 ## [1\. About this policy](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#A_About_this_policy>)
 
 
-### 
-
-
 ### [**1\.1 Why this policy?**](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#1.1 Why this policy?>)
 
 
@@ -11649,9 +11515,6 @@ If at the time of assessment, a shortfall in customer contribution is apparent, 
 | Income Frequency | * The supporting document must confirm the frequency and cycle of salary credits align with the customer declared information |
 | Salary Credit Variance | * If there is a variance between salary credits, the lowest  salary credit must be used for serviceability assessment.  The maximum variances allowed is: 	+ 1 variance where the pay cycle is monthly 	+ 2 variances where the pay cycle is fortnightly 	+ 4 variances where the pay cycle is weekly    If above is not met, assess as per ‘[Base Income using payslips](#Base Income (AUD) using payslips)’ |
 
-
-
-#### 
 
 
 
@@ -11899,9 +11762,6 @@ If at the time of assessment, a shortfall in customer contribution is apparent, 
 | [Fringe Benefit income (AUD)](#Fringe Benefit income (AUD)) | [Rental income (AUD) Rent received on a short term basis](#Rental income (AUD)) |
 
 
-### 
-
-
 
 
 
@@ -11915,9 +11775,6 @@ If at the time of assessment, a shortfall in customer contribution is apparent, 
 | **ADDITIONAL CONDITIONS** | |
 | **Eligibility** | * Must be a guaranteed income for a set period of time, either a lifetime or a fixed term, from monies invested in a superannuation fund or life insurance company. * Payments only made annually may be referred to Credit for exception consideration |
 | Tax Treatment | * Annuities may be taxed or untaxed |
-
-
-### 
 
 
 
@@ -12389,9 +12246,8 @@ If at the time of assessment, a shortfall in customer contribution is apparent, 
 * Be uploaded into loan application for verification to be undertaken and also held and retained in loan file.
 
 
-### 
 
-
+ 
   
 
  ## [**3\. Process to follow**](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Process_to_follow>)
@@ -13043,9 +12899,6 @@ This glossary contains a definition of common terms used throughout the
 | **Premium refund** | Refer to [Premium Refunds](#R_Requests_for__premium_refunds) |
 
 
-### 
-
-
 ### [2\.3 Lenders mortgage insurance approval](<https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy#R_Approval_Authority>)
 
 
@@ -13177,9 +13030,6 @@ Stamp Duty is applicable as a percentage of the premium amount.  This is calcula
 | **State** | NSW | VIC | QLD | SA | WA | TAS | ACT | NT |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Amount** | 0\.0% | 10\.0% | 9\.0% | 11\.0% | 10\.0% | 10\.0% | 0\.0% | 10\.0% |
-
-
-### 
 
 
 # [03\.35 Streamlined Refinance](https://kevin-mcisaac.github.io/policy-pal-pages/WBC_Mortgage_Broking_OBP_Policy)
