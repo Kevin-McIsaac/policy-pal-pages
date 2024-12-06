@@ -1,5 +1,6 @@
 Here you will find answers to frequently asked questions 
-that can help you get the most out of Policy Pal
+about using Policy Pal
+
 
 ## I did not get the answer I expected?
 There can be several reason for this and here are the 
