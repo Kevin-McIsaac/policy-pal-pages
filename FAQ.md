@@ -18,4 +18,4 @@ question.
    * Did it find the right documents but interpret the policy incorrectly. Report 
    a bug with the details of the question and what is wrong with the answer.
 
-3. 
+
