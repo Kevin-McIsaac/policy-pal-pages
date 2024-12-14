@@ -1,453 +1,181 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-    
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Serviceability calculator | Guidelines | NAB Broker Portal</title>
-<meta name="description" content="Use this simple calculator to gain an indication of whether your client meets the NAB loan serviceability guidelines."/>
+<meta content="Use this simple calculator to gain an indication of whether your client meets the NAB loan serviceability guidelines." name="description"/>
 <meta name="keywords"/>
-<meta name="robots" content="index,follow"/>
-<meta name="format-detection" content="telephone=no"/>
+<meta content="index,follow" name="robots"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="" property="og:url"/>
 
-
-
-
-
-
-<meta property="og:url" content="" />
-<script defer="defer" type="text/javascript" src="/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js"></script>
-<link rel="canonical" href="/secure/forms-and-calculators/"/>
+<link href="/secure/forms-and-calculators/" rel="canonical"/>
 <!-- iOS tile icons -->
-<link rel="apple-touch-icon" href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/nab-app-icon-60.png"/>
-<link rel="apple-touch-icon" sizes="76x76" href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/nab-app-icon-76.png"/>
-<link rel="apple-touch-icon" sizes="240x240" href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/nab-app-icon-240.png"/>
-<link rel="apple-touch-icon" sizes="304x304" href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/nab-app-icon-304.png"/>
-<link rel="apple-touch-icon" sizes="540x540" href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/nab-app-icon-540.png"/>
+<link href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/nab-app-icon-60.png" rel="apple-touch-icon"/>
+<link href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/nab-app-icon-76.png" rel="apple-touch-icon" sizes="76x76"/>
+<link href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/nab-app-icon-240.png" rel="apple-touch-icon" sizes="240x240"/>
+<link href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/nab-app-icon-304.png" rel="apple-touch-icon" sizes="304x304"/>
+<link href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/nab-app-icon-540.png" rel="apple-touch-icon" sizes="540x540"/>
 <!-- Browser favicons -->
-<link rel="icon" href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/favicon.ico"/>
-<link rel="shortcut icon" href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/favicon.ico" type="image/x-icon"/>
+<link href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/favicon.ico" rel="icon"/>
+<link href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <!-- Windows live tile icon -->
-<meta name="msapplication-TileColor" content="#000000"/>
-<meta name="msapplication-TileImage" content="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/nab-app-icon-144.png"/>
-
-    
-
-    
-<link rel="stylesheet" href="/etc.clientlibs/acs-commons/clientlibs/vendor/fontawesome.lc-332625294928b6ef75551c72c70a3608-lc.min.css" type="text/css">
-<link rel="stylesheet" href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app.lc-fa68e7ed87d924126315c295a8e42edd-lc.min.css" type="text/css">
-<link rel="stylesheet" href="/etc.clientlibs/secure-app/clientlibs/clientlib-nabbroker-all.lc-184f1d57070ff188a5a59eceacce017c-lc.min.css" type="text/css">
+<meta content="#000000" name="msapplication-TileColor"/>
+<meta content="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/nab-app-icon-144.png" name="msapplication-TileImage"/>
+<link href="/etc.clientlibs/acs-commons/clientlibs/vendor/fontawesome.lc-332625294928b6ef75551c72c70a3608-lc.min.css" rel="stylesheet" type="text/css"/>
+<link href="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app.lc-fa68e7ed87d924126315c295a8e42edd-lc.min.css" rel="stylesheet" type="text/css"/>
+<link href="/etc.clientlibs/secure-app/clientlibs/clientlib-nabbroker-all.lc-184f1d57070ff188a5a59eceacce017c-lc.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://www.nabbroker.com.au/ns-content/broker-1.18.0/broker-web-elements.css" rel="stylesheet" type="text/css">
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<link rel="stylesheet" type="text/css" href="https://www.nabbroker.com.au/ns-content/broker-1.18.0/broker-web-elements.css"/>
-
-
-    
-    
-
-
-
-
-    <script src="https://www.nabbroker.com.au/ns-content/broker-1.18.0/jquery.js" type="text/javascript"></script>
-    <script id="ensighten" src="//tms.nab.com.au/nab/nabbroker-prod/Bootstrap.js"></script>
-    <analytics-module data-config="{&#34;enabled&#34;:true,&#34;ensightenUrl&#34;:&#34;//tms.nab.com.au/nab/nabbroker-prod/Bootstrap.js&#34;,&#34;pageName&#34;:&#34;Serviceability Calculator&#34;,&#34;site&#34;:&#34;nab-broker&#34;,&#34;secure&#34;:true,&#34;isFirstPageFromLogin&#34;:true,&#34;pageHierarchy&#34;:&#34;:Forms \u0026 Calculators:Serviceability Calculator&#34;}"></analytics-module>
-
-
-                              <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="RAKMB-8NEYC-RWXC7-UHD6J-Z72LQ",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"RAKMB-8NEYC-RWXC7-UHD6J-Z72LQ";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="psu5qk3imibuez25dagq-f-18ecbefbc-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"39","ak.cp":"826520","ak.ai":parseInt("796752",10),"ak.ol":"0","ak.cr":13,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"1020ce8","ak.r":25498,"ak.a2":n,"ak.m":"x","ak.n":"essl","ak.bpcip":"124.169.216.0","ak.cport":48090,"ak.gh":"104.98.3.62","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1734154253","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==k7LW75QBedDV0XE8CFV8GWHog8eFopYhHGfLIKvBtEtIuTdY89eGMF8yX/i7igkA1y3EnJ7ic3ULUkQWrIpV+gyCWasX0ZNuuGvS+M34zhyo0O1Af8oqHjv33pez91Qnmqpgilq/UpREpGBRlCcNsvGtXGEOhNUZcUB9D5SD4/8LNiYHuLs4CZhCiRbDsI9spxZrCiApwQcon4b7jp0PMeAganKxjus0n5Zd7i/S2b/KBztyeUIF7hk9AYoX30svBDXrOxOt0z9nkKxVuU9BXxS38dBqoP2XOwmMqdkSdjv1QfGkV8g5OyXe2hz/FDQMHNY+tP9BNOol6zyjzV3p8S7M/Ft5N/97Fz2BNFOdS90ULzujmz1z632oFFeHkZA4xiJznR9bf4W5vuEHq25lh0wvSTsUZv5SELJxyhgK6Aw=","ak.pv":"29","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
-
-<body class="page  backgroundColorGrey">
-    <header>
-
-
-
-
-    
-        
-        
-        <div class="newpar new section">
-
+<analytics-module data-config='{"enabled":true,"ensightenUrl":"//tms.nab.com.au/nab/nabbroker-prod/Bootstrap.js","pageName":"Serviceability Calculator","site":"nab-broker","secure":true,"isFirstPageFromLogin":true,"pageHierarchy":":Forms \u0026 Calculators:Serviceability Calculator"}'></analytics-module>
+</link></head>
+<body class="page backgroundColorGrey">
+<header>
+<div class="newpar new section">
 </div>
-
-    
-        
-        
-        <div class="par iparys_inherited">
-
-    
-    
-    
-    
-        
-        
-        <div class="header">
-
-
-
-
-
-
-
-    <broker-header data-config="{&#34;title&#34;:&#34;Broker Portal&#34;,&#34;nabLogo&#34;:&#34;/content/dam/nabbroker/icons/object/nab-logo.svg&#34;,&#34;showLoginLogoutButton&#34;:true,&#34;hideNavigationMenu&#34;:false,&#34;loginTargetPage&#34;:&#34;/content/nabbroker/en/login&#34;,&#34;logoutTargetPage&#34;:&#34;/bin/common/authchecker/brokerLogout&#34;,&#34;disableAnalytics&#34;:false,&#34;navigationMenuChildren&#34;:[{&#34;title&#34;:&#34;About Us&#34;,&#34;navTitle&#34;:&#34;About Us&#34;,&#34;menuTitle&#34;:&#34;About Us&#34;,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/about-us&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:false,&#34;children&#34;:[]},{&#34;title&#34;:&#34;Residential&#34;,&#34;navTitle&#34;:null,&#34;menuTitle&#34;:&#34;Residential&#34;,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/residential&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:false,&#34;children&#34;:[{&#34;title&#34;:&#34;NAB Broker first half property update&#34;,&#34;navTitle&#34;:&#34;First half property update 2023&#34;,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/content/nabbroker/en/residential/nab-first-half-property-update.html&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:false,&#34;children&#34;:null},{&#34;title&#34;:&#34;NAB Market Megatrends 2024&#34;,&#34;navTitle&#34;:&#34;NAB Market megatrends report&#34;,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/content/nabbroker/en/residential/nab-market-megatrends-report.html&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:false,&#34;children&#34;:null}]},{&#34;title&#34;:&#34;Commercial&#34;,&#34;navTitle&#34;:&#34;Commercial&#34;,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/commercial&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:false,&#34;children&#34;:[]},{&#34;title&#34;:&#34;Our Stories&#34;,&#34;navTitle&#34;:null,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/commercial-broker-stories&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:false,&#34;children&#34;:[]},{&#34;title&#34;:&#34;Home Lending Offers&#34;,&#34;navTitle&#34;:&#34;Offers&#34;,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/offers&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:false,&#34;children&#34;:[{&#34;title&#34;:&#34;Medical practice lending&#34;,&#34;navTitle&#34;:null,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/content/nabbroker/en/offers/medical-practice-lending.html&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:false,&#34;children&#34;:null}]},{&#34;title&#34;:&#34;Products&#34;,&#34;navTitle&#34;:&#34;Products&#34;,&#34;menuTitle&#34;:&#34;Products&#34;,&#34;groupPermissions&#34;:[&#34;portal-application-aem-aggregator&#34;,&#34;portal-application-aem-aggregator-person-standard&#34;,&#34;portal-application-aem-aggregator-person-commissions&#34;,&#34;portal-application-aem-broker&#34;,&#34;INT-SE-DA-AEM-Internal-Broker-Portal&#34;],&#34;path&#34;:&#34;/secure/products&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:[{&#34;title&#34;:&#34;Residential products&#34;,&#34;navTitle&#34;:&#34;Residential products&#34;,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/content/nabbroker/en/secure/products/residential-products.html&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:null},{&#34;title&#34;:&#34;Business products&#34;,&#34;navTitle&#34;:&#34;Business products&#34;,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/content/nabbroker/en/secure/products/business-products.html&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:null}]},{&#34;title&#34;:&#34;Credit policies&#34;,&#34;navTitle&#34;:&#34;Credit policies&#34;,&#34;menuTitle&#34;:&#34;Credit policies&#34;,&#34;groupPermissions&#34;:[&#34;portal-application-aem-broker&#34;,&#34;INT-SE-DA-AEM-Internal-Broker-Portal&#34;,&#34;portal-application-aem-aggregator&#34;,&#34;portal-application-aem-aggregator-person-standard&#34;,&#34;portal-application-aem-aggregator-person-commissions&#34;],&#34;path&#34;:&#34;/secure/credit-policies&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:[]},{&#34;title&#34;:&#34;Resources&#34;,&#34;navTitle&#34;:&#34;Resources&#34;,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:[&#34;portal-application-aem-broker&#34;,&#34;INT-SE-DA-AEM-Internal-Broker-Portal&#34;,&#34;portal-application-aem-aggregator&#34;,&#34;portal-application-aem-aggregator-person-standard&#34;,&#34;portal-application-aem-aggregator-person-commissions&#34;],&#34;path&#34;:&#34;/secure/resources&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:[{&#34;title&#34;:&#34;Home Guarantee Scheme&#34;,&#34;navTitle&#34;:null,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/content/nabbroker/en/secure/resources/home-guarantee-scheme.html&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:null},{&#34;title&#34;:&#34;Troubleshooting in the NAB App&#34;,&#34;navTitle&#34;:null,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/content/nabbroker/en/secure/resources/troubleshootnabapp.html&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:null}]},{&#34;title&#34;:&#34;Forms \u0026 Calculators&#34;,&#34;navTitle&#34;:&#34;Forms \u0026 Calculators&#34;,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:[&#34;portal-application-aem-broker&#34;,&#34;portal-application-aem-aggregator&#34;,&#34;portal-application-aem-aggregator-person-standard&#34;,&#34;portal-application-aem-aggregator-person-commissions&#34;,&#34;INT-SE-DA-AEM-Internal-Broker-Portal&#34;],&#34;path&#34;:&#34;/secure/forms-and-calculators&#34;,&#34;active&#34;:true,&#34;isSecure&#34;:true,&#34;children&#34;:[{&#34;title&#34;:&#34;NAB Commercial Broker Lending Proposals&#34;,&#34;navTitle&#34;:null,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/content/nabbroker/en/secure/forms-and-calculators/lending-proposals.html&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:null},{&#34;title&#34;:&#34;Instant Pricing Tool&#34;,&#34;navTitle&#34;:null,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:null,&#34;path&#34;:&#34;/content/nabbroker/en/secure/forms-and-calculators/instant-pricing-tool.html&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:null}]},{&#34;title&#34;:&#34;Commissions&#34;,&#34;navTitle&#34;:null,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:[&#34;portal-application-aem-aggregator-person-commissions&#34;],&#34;path&#34;:&#34;/secure/commissions&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:[]},{&#34;title&#34;:&#34;News&#34;,&#34;navTitle&#34;:null,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:[&#34;portal-application-aem-broker&#34;,&#34;portal-application-aem-aggregator&#34;,&#34;portal-application-aem-aggregator-person-standard&#34;,&#34;portal-application-aem-aggregator-person-commissions&#34;,&#34;INT-SE-DA-AEM-Internal-Broker-Portal&#34;],&#34;path&#34;:&#34;/secure/news&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:[]},{&#34;title&#34;:&#34;Home Lending Offers&#34;,&#34;navTitle&#34;:&#34;Offers&#34;,&#34;menuTitle&#34;:&#34;Offers&#34;,&#34;groupPermissions&#34;:[&#34;portal-application-aem-broker&#34;,&#34;portal-application-aem-aggregator&#34;,&#34;portal-application-aem-aggregator-person-standard&#34;,&#34;portal-application-aem-aggregator-person-commissions&#34;,&#34;INT-SE-DA-AEM-Internal-Broker-Portal&#34;],&#34;path&#34;:&#34;/secure/offers&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:[]},{&#34;title&#34;:&#34;Home Lending&#34;,&#34;navTitle&#34;:&#34;Lending&#34;,&#34;menuTitle&#34;:&#34;Home Lending&#34;,&#34;groupPermissions&#34;:[&#34;portal-application-aem-broker&#34;,&#34;portal-application-aem-aggregator&#34;,&#34;portal-application-aem-aggregator-person-standard&#34;,&#34;portal-application-aem-aggregator-person-commissions&#34;,&#34;INT-SE-DA-AEM-Internal-Broker-Portal&#34;],&#34;path&#34;:&#34;/secure/lending&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:[{&#34;title&#34;:&#34;Small Business&#34;,&#34;navTitle&#34;:&#34;Small Business&#34;,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:[&#34;portal-application-aem-broker&#34;,&#34;portal-application-aem-aggregator&#34;,&#34;portal-application-aem-aggregator-person-standard&#34;,&#34;portal-application-aem-aggregator-person-commissions&#34;,&#34;INT-SE-DA-AEM-Internal-Broker-Portal&#34;],&#34;path&#34;:&#34;/content/nabbroker/en/secure/lending/small-business-lending.html&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:null}]},{&#34;title&#34;:&#34;Contact Us&#34;,&#34;navTitle&#34;:&#34;Contact Us&#34;,&#34;menuTitle&#34;:null,&#34;groupPermissions&#34;:[&#34;portal-application-aem-broker&#34;,&#34;portal-application-aem-aggregator&#34;,&#34;portal-application-aem-aggregator-person-standard&#34;,&#34;portal-application-aem-aggregator-person-commissions&#34;,&#34;INT-SE-DA-AEM-Internal-Broker-Portal&#34;],&#34;path&#34;:&#34;/secure/contact-us&#34;,&#34;active&#34;:false,&#34;isSecure&#34;:true,&#34;children&#34;:[]}],&#34;currentPagePath&#34;:&#34;/content/nabbroker/en/secure/forms-and-calculators/serviceability-calculator.html&#34;}"></broker-header>
+<div class="par iparys_inherited">
+<div class="header">
+<broker-header data-config='{"title":"Broker Portal","nabLogo":"/content/dam/nabbroker/icons/object/nab-logo.svg","showLoginLogoutButton":true,"hideNavigationMenu":false,"loginTargetPage":"/content/nabbroker/en/login","logoutTargetPage":"/bin/common/authchecker/brokerLogout","disableAnalytics":false,"navigationMenuChildren":[{"title":"About Us","navTitle":"About Us","menuTitle":"About Us","groupPermissions":null,"path":"/about-us","active":false,"isSecure":false,"children":[]},{"title":"Residential","navTitle":null,"menuTitle":"Residential","groupPermissions":null,"path":"/residential","active":false,"isSecure":false,"children":[{"title":"NAB Broker first half property update","navTitle":"First half property update 2023","menuTitle":null,"groupPermissions":null,"path":"/content/nabbroker/en/residential/nab-first-half-property-update.html","active":false,"isSecure":false,"children":null},{"title":"NAB Market Megatrends 2024","navTitle":"NAB Market megatrends report","menuTitle":null,"groupPermissions":null,"path":"/content/nabbroker/en/residential/nab-market-megatrends-report.html","active":false,"isSecure":false,"children":null}]},{"title":"Commercial","navTitle":"Commercial","menuTitle":null,"groupPermissions":null,"path":"/commercial","active":false,"isSecure":false,"children":[]},{"title":"Our Stories","navTitle":null,"menuTitle":null,"groupPermissions":null,"path":"/commercial-broker-stories","active":false,"isSecure":false,"children":[]},{"title":"Home Lending Offers","navTitle":"Offers","menuTitle":null,"groupPermissions":null,"path":"/offers","active":false,"isSecure":false,"children":[{"title":"Medical practice lending","navTitle":null,"menuTitle":null,"groupPermissions":null,"path":"/content/nabbroker/en/offers/medical-practice-lending.html","active":false,"isSecure":false,"children":null}]},{"title":"Products","navTitle":"Products","menuTitle":"Products","groupPermissions":["portal-application-aem-aggregator","portal-application-aem-aggregator-person-standard","portal-application-aem-aggregator-person-commissions","portal-application-aem-broker","INT-SE-DA-AEM-Internal-Broker-Portal"],"path":"/secure/products","active":false,"isSecure":true,"children":[{"title":"Residential products","navTitle":"Residential products","menuTitle":null,"groupPermissions":null,"path":"/content/nabbroker/en/secure/products/residential-products.html","active":false,"isSecure":true,"children":null},{"title":"Business products","navTitle":"Business products","menuTitle":null,"groupPermissions":null,"path":"/content/nabbroker/en/secure/products/business-products.html","active":false,"isSecure":true,"children":null}]},{"title":"Credit policies","navTitle":"Credit policies","menuTitle":"Credit policies","groupPermissions":["portal-application-aem-broker","INT-SE-DA-AEM-Internal-Broker-Portal","portal-application-aem-aggregator","portal-application-aem-aggregator-person-standard","portal-application-aem-aggregator-person-commissions"],"path":"/secure/credit-policies","active":false,"isSecure":true,"children":[]},{"title":"Resources","navTitle":"Resources","menuTitle":null,"groupPermissions":["portal-application-aem-broker","INT-SE-DA-AEM-Internal-Broker-Portal","portal-application-aem-aggregator","portal-application-aem-aggregator-person-standard","portal-application-aem-aggregator-person-commissions"],"path":"/secure/resources","active":false,"isSecure":true,"children":[{"title":"Home Guarantee Scheme","navTitle":null,"menuTitle":null,"groupPermissions":null,"path":"/content/nabbroker/en/secure/resources/home-guarantee-scheme.html","active":false,"isSecure":true,"children":null},{"title":"Troubleshooting in the NAB App","navTitle":null,"menuTitle":null,"groupPermissions":null,"path":"/content/nabbroker/en/secure/resources/troubleshootnabapp.html","active":false,"isSecure":true,"children":null}]},{"title":"Forms \u0026 Calculators","navTitle":"Forms \u0026 Calculators","menuTitle":null,"groupPermissions":["portal-application-aem-broker","portal-application-aem-aggregator","portal-application-aem-aggregator-person-standard","portal-application-aem-aggregator-person-commissions","INT-SE-DA-AEM-Internal-Broker-Portal"],"path":"/secure/forms-and-calculators","active":true,"isSecure":true,"children":[{"title":"NAB Commercial Broker Lending Proposals","navTitle":null,"menuTitle":null,"groupPermissions":null,"path":"/content/nabbroker/en/secure/forms-and-calculators/lending-proposals.html","active":false,"isSecure":true,"children":null},{"title":"Instant Pricing Tool","navTitle":null,"menuTitle":null,"groupPermissions":null,"path":"/content/nabbroker/en/secure/forms-and-calculators/instant-pricing-tool.html","active":false,"isSecure":true,"children":null}]},{"title":"Commissions","navTitle":null,"menuTitle":null,"groupPermissions":["portal-application-aem-aggregator-person-commissions"],"path":"/secure/commissions","active":false,"isSecure":true,"children":[]},{"title":"News","navTitle":null,"menuTitle":null,"groupPermissions":["portal-application-aem-broker","portal-application-aem-aggregator","portal-application-aem-aggregator-person-standard","portal-application-aem-aggregator-person-commissions","INT-SE-DA-AEM-Internal-Broker-Portal"],"path":"/secure/news","active":false,"isSecure":true,"children":[]},{"title":"Home Lending Offers","navTitle":"Offers","menuTitle":"Offers","groupPermissions":["portal-application-aem-broker","portal-application-aem-aggregator","portal-application-aem-aggregator-person-standard","portal-application-aem-aggregator-person-commissions","INT-SE-DA-AEM-Internal-Broker-Portal"],"path":"/secure/offers","active":false,"isSecure":true,"children":[]},{"title":"Home Lending","navTitle":"Lending","menuTitle":"Home Lending","groupPermissions":["portal-application-aem-broker","portal-application-aem-aggregator","portal-application-aem-aggregator-person-standard","portal-application-aem-aggregator-person-commissions","INT-SE-DA-AEM-Internal-Broker-Portal"],"path":"/secure/lending","active":false,"isSecure":true,"children":[{"title":"Small Business","navTitle":"Small Business","menuTitle":null,"groupPermissions":["portal-application-aem-broker","portal-application-aem-aggregator","portal-application-aem-aggregator-person-standard","portal-application-aem-aggregator-person-commissions","INT-SE-DA-AEM-Internal-Broker-Portal"],"path":"/content/nabbroker/en/secure/lending/small-business-lending.html","active":false,"isSecure":true,"children":null}]},{"title":"Contact Us","navTitle":"Contact Us","menuTitle":null,"groupPermissions":["portal-application-aem-broker","portal-application-aem-aggregator","portal-application-aem-aggregator-person-standard","portal-application-aem-aggregator-person-commissions","INT-SE-DA-AEM-Internal-Broker-Portal"],"path":"/secure/contact-us","active":false,"isSecure":true,"children":[]}],"currentPagePath":"/content/nabbroker/en/secure/forms-and-calculators/serviceability-calculator.html"}'></broker-header>
 </div>
-
-    
-
 </div>
-
-    
-
 </header>
 <welcome-header>
-
-
-
-
-    
-        
-        
-        <div class="newpar new section">
-
+<div class="newpar new section">
 </div>
-
-    
-        
-        
-        <div class="par iparys_inherited">
-
-    
-    
-    
-    
-        
-        
-        <div class="welcome-header">
-
-
-
-
-<welcome-header-module data-config="{&#34;backgroundImage&#34;:&#34;/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/header-background.png&#34;,&#34;pageTitle&#34;:&#34;Serviceability Calculator&#34;,&#34;showWelcomeMessage&#34;:false,&#34;hideQuickLinks&#34;:false}"></welcome-header-module></div>
-
-    
-
+<div class="par iparys_inherited">
+<div class="welcome-header">
+<welcome-header-module data-config='{"backgroundImage":"/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app/resources/icons/header-background.png","pageTitle":"Serviceability Calculator","showWelcomeMessage":false,"hideQuickLinks":false}'></welcome-header-module></div>
 </div>
-
-    
-
 </welcome-header>
-
-
-<broker-root id="broker-root" data-broker-app-config="{&#34;env&#34;:&#34;prod&#34;,&#34;mode&#34;:&#34;publish&#34;,&#34;api&#34;:{&#34;externalEndpoint&#34;:&#34;https://api-cg.nabbroker.com.au&#34;,&#34;internalEndpoint&#34;:&#34;&#34;,&#34;nabKey&#34;:null,&#34;nabInternalKey&#34;:null,&#34;encrKey&#34;:&#34;772664$#@$^@1ERF&#34;,&#34;kongExternalEndPoint&#34;:&#34;https://customer.api.nab.com.au&#34;,&#34;kongInternalEndPoint&#34;:&#34;https://prod.staff.api.ext.national.com.au&#34;,&#34;kongClientId&#34;:&#34;6916C56D-999D-A601-9156-FEFD336CB5FB&#34;,&#34;kongExternalClientId&#34;:&#34;69E47DFF-62C6-1AF9-FBF5-73A09B81B687&#34;}}"></broker-root>
-
-
-
-
+<broker-root data-broker-app-config='{"env":"prod","mode":"publish","api":{"externalEndpoint":"https://api-cg.nabbroker.com.au","internalEndpoint":"","nabKey":null,"nabInternalKey":null,"encrKey":"772664$#@$^@1ERF","kongExternalEndPoint":"https://customer.api.nab.com.au","kongInternalEndPoint":"https://prod.staff.api.ext.national.com.au","kongClientId":"6916C56D-999D-A601-9156-FEFD336CB5FB","kongExternalClientId":"69E47DFF-62C6-1AF9-FBF5-73A09B81B687"}}' id="broker-root"></broker-root>
 <main id="main-content">
-    <div class="container">
-        <div class="responsive-grid">
-            
-
-
-<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-    
-    <div class="section-container aem-GridColumn aem-GridColumn--default--12">
-
-
-
-
-<broker-section-container data-config="{&#34;backgroundColor&#34;:null,&#34;columnGap&#34;:null,&#34;rowGap&#34;:null,&#34;columnSize&#34;:null,&#34;padding&#34;:null,&#34;numColumns&#34;:{&#34;md&#34;:null,&#34;sm&#34;:null,&#34;xs&#34;:null,&#34;lg&#34;:null}}">
-    
-
-
-
-
-    
-    
-    <div class="text">
-    
-    
-    <root>
-    <p>The Serviceability Calculator can continue to be used to determine if the application meets our serviceability standards. Our assessment teams may call upon this document to understand how inputs have been determined, otherwise it is no longer mandatory nor needs to be provided as part of the submission.</p>
-    
-    <p>
-        <a href="/content/dam/nabbroker/secure/documents/guides/nab-broker-serviceability-calculator-v58.xlsm" rel="noopener noreferrer" target="_blank">Use version 58 of the serviceability calculator (XLSM, 1MB)<span class="sr-only">, opens in a new window</span>
-            <svg aria-hidden="true" class="icon-svg" focusable="false" height="16px" viewbox="0 0 18 16" width="18px" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.658 2.035H13.71a.686.686 0 1 1 0-1.372h3.603c.38 0 .687.308.686.687l-.006 3.326a.686.686 0 0 1-1.372-.003l.003-1.666-4.902 4.903a.686.686 0 0 1-.97-.97l4.905-4.905zM1.372 3.988h7.025c.333 0 .603.308.603.686 0 .38-.27.686-.603.686H1.372v8.605h15.256v-4.72a.686.686 0 0 1 1.372 0v5.406a.686.686 0 0 1-.686.686H.686A.686.686 0 0 1 0 14.651V1.35C0 .969.307.663.686.663h8.731a.686.686 0 0 1 0 1.372H1.372v1.953z"></path>
-            </svg>
-        </a>&nbsp;for any applications lodged, assesses and approved before 11:59pm on Thursday 28th November 2024.
+<div class="container">
+<div class="responsive-grid">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="section-container aem-GridColumn aem-GridColumn--default--12">
+<broker-section-container data-config='{"backgroundColor":null,"columnGap":null,"rowGap":null,"columnSize":null,"padding":null,"numColumns":{"md":null,"sm":null,"xs":null,"lg":null}}'>
+<div class="text">
+<root>
+<p>The Serviceability Calculator can continue to be used to determine if the application meets our serviceability standards. Our assessment teams may call upon this document to understand how inputs have been determined, otherwise it is no longer mandatory nor needs to be provided as part of the submission.</p>
+<p>
+<a href="/content/dam/nabbroker/secure/documents/guides/nab-broker-serviceability-calculator-v58.xlsm" rel="noopener noreferrer" target="_blank">Use version 58 of the serviceability calculator (XLSM, 1MB)<span class="sr-only">, opens in a new window</span>
+<svg aria-hidden="true" class="icon-svg" focusable="false" height="16px" viewbox="0 0 18 16" width="18px" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.658 2.035H13.71a.686.686 0 1 1 0-1.372h3.603c.38 0 .687.308.686.687l-.006 3.326a.686.686 0 0 1-1.372-.003l.003-1.666-4.902 4.903a.686.686 0 0 1-.97-.97l4.905-4.905zM1.372 3.988h7.025c.333 0 .603.308.603.686 0 .38-.27.686-.603.686H1.372v8.605h15.256v-4.72a.686.686 0 0 1 1.372 0v5.406a.686.686 0 0 1-.686.686H.686A.686.686 0 0 1 0 14.651V1.35C0 .969.307.663.686.663h8.731a.686.686 0 0 1 0 1.372H1.372v1.953z"></path>
+</svg>
+</a> for any applications lodged, assesses and approved before 11:59pm on Thursday 28th November 2024.
     </p>
-    
-    <p>
-        <a href="/content/dam/nabbroker/secure/documents/guides/nab-broker-serviceability-calculator-v59.xlsm" rel="noopener noreferrer" target="_blank">Use version 59 of the serviceability calculator (XLSM, 1MB)<span class="sr-only">, opens in a new window</span>
-            <svg aria-hidden="true" class="icon-svg" focusable="false" height="16px" viewbox="0 0 18 16" width="18px">
-                <path d="M15.658 2.035H13.71a.686.686 0 1 1 0-1.372h3.603c.38 0 .687.308.686.687l-.006 3.326a.686.686 0 0 1-1.372-.003l.003-1.666-4.902 4.903a.686.686 0 0 1-.97-.97l4.905-4.905zM1.372 3.988h7.025c.333 0 .603.308.603.686 0 .38-.27.686-.603.686H1.372v8.605h15.256v-4.72a.686.686 0 0 1 1.372 0v5.406a.686.686 0 0 1-.686.686H.686A.686.686 0 0 1 0 14.651V1.35C0 .969.307.663.686.663h8.731a.686.686 0 0 1 0 1.372H1.372v1.953z"></path>
-            </svg>
-        </a>&nbsp;for any applications lodged, assessed or approve after 12:00am on Friday 29th November 2024.
+<p>
+<a href="/content/dam/nabbroker/secure/documents/guides/nab-broker-serviceability-calculator-v59.xlsm" rel="noopener noreferrer" target="_blank">Use version 59 of the serviceability calculator (XLSM, 1MB)<span class="sr-only">, opens in a new window</span>
+<svg aria-hidden="true" class="icon-svg" focusable="false" height="16px" viewbox="0 0 18 16" width="18px">
+<path d="M15.658 2.035H13.71a.686.686 0 1 1 0-1.372h3.603c.38 0 .687.308.686.687l-.006 3.326a.686.686 0 0 1-1.372-.003l.003-1.666-4.902 4.903a.686.686 0 0 1-.97-.97l4.905-4.905zM1.372 3.988h7.025c.333 0 .603.308.603.686 0 .38-.27.686-.603.686H1.372v8.605h15.256v-4.72a.686.686 0 0 1 1.372 0v5.406a.686.686 0 0 1-.686.686H.686A.686.686 0 0 1 0 14.651V1.35C0 .969.307.663.686.663h8.731a.686.686 0 0 1 0 1.372H1.372v1.953z"></path>
+</svg>
+</a> for any applications lodged, assessed or approve after 12:00am on Friday 29th November 2024.
     </p>
-    
 </root>
-
 </div>
-
-
-
 </broker-section-container></div>
 <div class="section-container aem-GridColumn aem-GridColumn--default--12">
-
-
-
-
-<broker-section-container data-config="{&#34;backgroundColor&#34;:null,&#34;columnGap&#34;:null,&#34;rowGap&#34;:null,&#34;columnSize&#34;:null,&#34;padding&#34;:null,&#34;numColumns&#34;:{&#34;md&#34;:null,&#34;sm&#34;:null,&#34;xs&#34;:null,&#34;lg&#34;:null}}">
-    
-
-
-
-
-    
-    
-    <div class="text">
-    
-    
-    <root>
-    <h2>User guide</h2>
-    
-    <p>
+<broker-section-container data-config='{"backgroundColor":null,"columnGap":null,"rowGap":null,"columnSize":null,"padding":null,"numColumns":{"md":null,"sm":null,"xs":null,"lg":null}}'>
+<div class="text">
+<root>
+<h2>User guide</h2>
+<p>
         Use this <a href="/content/dam/nabbroker/secure/documents/guides/serviceabilitycalculatoruserguide-pdf.pdf" rel="noopener noreferrer" target="_blank" title="User guide">step by step guide (PDF, 96KB)<span class="sr-only">, opens in a new window</span>
-            <svg aria-hidden="true" class="icon-svg" focusable="false" height="16px" viewbox="0 0 18 16" width="18px" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.658 2.035H13.71a.686.686 0 1 1 0-1.372h3.603c.38 0 .687.308.686.687l-.006 3.326a.686.686 0 0 1-1.372-.003l.003-1.666-4.902 4.903a.686.686 0 0 1-.97-.97l4.905-4.905zM1.372 3.988h7.025c.333 0 .603.308.603.686 0 .38-.27.686-.603.686H1.372v8.605h15.256v-4.72a.686.686 0 0 1 1.372 0v5.406a.686.686 0 0 1-.686.686H.686A.686.686 0 0 1 0 14.651V1.35C0 .969.307.663.686.663h8.731a.686.686 0 0 1 0 1.372H1.372v1.953z"></path>
-            </svg>
-        </a> to assist you in completing the Serviceability Calculator.
+<svg aria-hidden="true" class="icon-svg" focusable="false" height="16px" viewbox="0 0 18 16" width="18px" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.658 2.035H13.71a.686.686 0 1 1 0-1.372h3.603c.38 0 .687.308.686.687l-.006 3.326a.686.686 0 0 1-1.372-.003l.003-1.666-4.902 4.903a.686.686 0 0 1-.97-.97l4.905-4.905zM1.372 3.988h7.025c.333 0 .603.308.603.686 0 .38-.27.686-.603.686H1.372v8.605h15.256v-4.72a.686.686 0 0 1 1.372 0v5.406a.686.686 0 0 1-.686.686H.686A.686.686 0 0 1 0 14.651V1.35C0 .969.307.663.686.663h8.731a.686.686 0 0 1 0 1.372H1.372v1.953z"></path>
+</svg>
+</a> to assist you in completing the Serviceability Calculator.
     </p>
-    
-    <p>
+<p>
         Use this <a href="/content/dam/nabbroker/secure/documents/guides/living-expense-capture-guide-pdf.pdf" rel="noopener noreferrer" target="_blank">Living Expense Guide (PDF, 4MB)<span class="sr-only">, opens in a new window</span>
-            <svg aria-hidden="true" class="icon-svg" focusable="false" height="16px" viewbox="0 0 18 16" width="18px">
-                <path d="M15.658 2.035H13.71a.686.686 0 1 1 0-1.372h3.603c.38 0 .687.308.686.687l-.006 3.326a.686.686 0 0 1-1.372-.003l.003-1.666-4.902 4.903a.686.686 0 0 1-.97-.97l4.905-4.905zM1.372 3.988h7.025c.333 0 .603.308.603.686 0 .38-.27.686-.603.686H1.372v8.605h15.256v-4.72a.686.686 0 0 1 1.372 0v5.406a.686.686 0 0 1-.686.686H.686A.686.686 0 0 1 0 14.651V1.35C0 .969.307.663.686.663h8.731a.686.686 0 0 1 0 1.372H1.372v1.953z"></path>
-            </svg>
-        </a> to assist you with completing Living Expenses.
+<svg aria-hidden="true" class="icon-svg" focusable="false" height="16px" viewbox="0 0 18 16" width="18px">
+<path d="M15.658 2.035H13.71a.686.686 0 1 1 0-1.372h3.603c.38 0 .687.308.686.687l-.006 3.326a.686.686 0 0 1-1.372-.003l.003-1.666-4.902 4.903a.686.686 0 0 1-.97-.97l4.905-4.905zM1.372 3.988h7.025c.333 0 .603.308.603.686 0 .38-.27.686-.603.686H1.372v8.605h15.256v-4.72a.686.686 0 0 1 1.372 0v5.406a.686.686 0 0 1-.686.686H.686A.686.686 0 0 1 0 14.651V1.35C0 .969.307.663.686.663h8.731a.686.686 0 0 1 0 1.372H1.372v1.953z"></path>
+</svg>
+</a> to assist you with completing Living Expenses.
     </p>
-    
 </root>
-
 </div>
-
-
-
 </broker-section-container></div>
 <div class="section-container aem-GridColumn aem-GridColumn--default--12">
-
-
-
-
-<broker-section-container data-config="{&#34;backgroundColor&#34;:null,&#34;columnGap&#34;:null,&#34;rowGap&#34;:null,&#34;columnSize&#34;:null,&#34;padding&#34;:null,&#34;numColumns&#34;:{&#34;md&#34;:null,&#34;sm&#34;:null,&#34;xs&#34;:null,&#34;lg&#34;:null}}">
-    
-
-
-
-
-    
-    
-    <div class="text">
-    
-    
-    <root>
-    <h2>What you need to do</h2>
-    
-    <ul>
-        <li>Enter the applicant's details into each section, including the loan term required.</li>
-        <li>Once complete, include a copy of the serviceability calculation with the supporting documents for your client&rsquo;s application.</li>
-    </ul>
-    
+<broker-section-container data-config='{"backgroundColor":null,"columnGap":null,"rowGap":null,"columnSize":null,"padding":null,"numColumns":{"md":null,"sm":null,"xs":null,"lg":null}}'>
+<div class="text">
+<root>
+<h2>What you need to do</h2>
+<ul>
+<li>Enter the applicant's details into each section, including the loan term required.</li>
+<li>Once complete, include a copy of the serviceability calculation with the supporting documents for your client’s application.</li>
+</ul>
 </root>
-
 </div>
-
-
-
 </broker-section-container></div>
 <div class="section-container aem-GridColumn aem-GridColumn--default--12">
-
-
-
-
-<broker-section-container data-config="{&#34;backgroundColor&#34;:null,&#34;columnGap&#34;:null,&#34;rowGap&#34;:null,&#34;columnSize&#34;:null,&#34;padding&#34;:null,&#34;numColumns&#34;:{&#34;md&#34;:null,&#34;sm&#34;:null,&#34;xs&#34;:null,&#34;lg&#34;:null}}">
-    
-
-
-
-
-    
-    
-    <div class="text">
-    
-    
-    <root>
-    <h2>How it works</h2>
-    
-    <p>The Calculator is based on:</p>
-    
-    <ul>
-        <li>
+<broker-section-container data-config='{"backgroundColor":null,"columnGap":null,"rowGap":null,"columnSize":null,"padding":null,"numColumns":{"md":null,"sm":null,"xs":null,"lg":null}}'>
+<div class="text">
+<root>
+<h2>How it works</h2>
+<p>The Calculator is based on:</p>
+<ul>
+<li>
             the current NAB servicing rate
-            <br>
-            
-        </li>
-        <li>the loan to value ratio (LVR)</li>
-        <li>the Net Disposable Income (NDI)</li>
-        <li>customer stated living expenses</li>
-        <li>estimated loan repayment amounts.</li>
-    </ul>
-    
-    <p>These rates and ratios (and how thay are applied) may be changed at any time.</p>
-    
+            <br/>
+</li>
+<li>the loan to value ratio (LVR)</li>
+<li>the Net Disposable Income (NDI)</li>
+<li>customer stated living expenses</li>
+<li>estimated loan repayment amounts.</li>
+</ul>
+<p>These rates and ratios (and how thay are applied) may be changed at any time.</p>
 </root>
-
 </div>
-
-
-
 </broker-section-container></div>
 <div class="section-container aem-GridColumn aem-GridColumn--default--12">
-
-
-
-
-<broker-section-container data-config="{&#34;backgroundColor&#34;:null,&#34;columnGap&#34;:null,&#34;rowGap&#34;:null,&#34;columnSize&#34;:null,&#34;padding&#34;:null,&#34;numColumns&#34;:{&#34;md&#34;:null,&#34;sm&#34;:null,&#34;xs&#34;:null,&#34;lg&#34;:null}}">
-    
-
-
-
-
-    
-    
-    <div class="text">
-    
-    
-    <root>
-    <h2>Conditions of use</h2>
-    
-    <p>The Serviceability Calculator is not a loan offer, nor is it an indication of our intention to formally approve the loan application, or a prediction of the borrower&rsquo;s actual ability to service a loan. It merely indicates the borrower&rsquo;s compliance with our loan serviceability guidelines based on the information you have entered.&nbsp;</p>
-    
-    <p>All applications are subject to our full Credit Guidelines and approval process. The outcome of this assessment is to be used as a guide only as to whether or not your applicant&rsquo;s criteria meets our standards for an initial "Approval in Principle".&nbsp;</p>
-    
-    <p>Ultimately, loan applications may be manually reviewed to take into account the various criteria in the loan application. We may, in our discretion, decline an application even though it appears to meet our serviceability criteria.&nbsp;</p>
-    
-    <p>This calculator, and all intellectual property rights in and in relation to this calculator, are owned by National Australia Bank Limited (NAB). NAB grants you a non-exclusive licence to use the calculator solely for the purpose of assisting applicants and potential borrowers. NAB makes no warranties in relation to the accuracy of the calculator and, to the extent permitted by law, excludes any liability arising directly or indirectly in relation to your use of the calculator. You may not copy or modify the calculator or permit any person not expressly authorised by NAB to access or use the calculator. If directed by NAB, you must immediately cease use of the calculator and delete it from your computer system.&nbsp;</p>
-    
+<broker-section-container data-config='{"backgroundColor":null,"columnGap":null,"rowGap":null,"columnSize":null,"padding":null,"numColumns":{"md":null,"sm":null,"xs":null,"lg":null}}'>
+<div class="text">
+<root>
+<h2>Conditions of use</h2>
+<p>The Serviceability Calculator is not a loan offer, nor is it an indication of our intention to formally approve the loan application, or a prediction of the borrower’s actual ability to service a loan. It merely indicates the borrower’s compliance with our loan serviceability guidelines based on the information you have entered. </p>
+<p>All applications are subject to our full Credit Guidelines and approval process. The outcome of this assessment is to be used as a guide only as to whether or not your applicant’s criteria meets our standards for an initial "Approval in Principle". </p>
+<p>Ultimately, loan applications may be manually reviewed to take into account the various criteria in the loan application. We may, in our discretion, decline an application even though it appears to meet our serviceability criteria. </p>
+<p>This calculator, and all intellectual property rights in and in relation to this calculator, are owned by National Australia Bank Limited (NAB). NAB grants you a non-exclusive licence to use the calculator solely for the purpose of assisting applicants and potential borrowers. NAB makes no warranties in relation to the accuracy of the calculator and, to the extent permitted by law, excludes any liability arising directly or indirectly in relation to your use of the calculator. You may not copy or modify the calculator or permit any person not expressly authorised by NAB to access or use the calculator. If directed by NAB, you must immediately cease use of the calculator and delete it from your computer system. </p>
 </root>
-
 </div>
-
-
-
 </broker-section-container></div>
-
-    
 </div>
-
-        </div>
-    </div>
+</div>
+</div>
 </main>
-
 <footer>
-
-
-
-
-    
-        
-        
-        <div class="newpar new section">
-
+<div class="newpar new section">
 </div>
-
-    
-        
-        
-        <div class="par iparys_inherited">
-
-    
-    
-    
-    
-        
-        
-        <div class="footer">
-
-
-
-
-
-
-
-
-
-
-<broker-footer-module data-config="{&#34;links&#34;:[{&#34;href&#34;:&#34;/content/nabbroker/en/about-us.html&#34;,&#34;icon&#34;:&#34;&#34;,&#34;label&#34;:&#34;About NAB&#34;,&#34;iconColor&#34;:null,&#34;openInNewTab&#34;:false},{&#34;href&#34;:&#34;/content/nabbroker/en/customer-contact-centre.html&#34;,&#34;icon&#34;:&#34;&#34;,&#34;label&#34;:&#34;Customer Contact Centre&#34;,&#34;iconColor&#34;:null,&#34;openInNewTab&#34;:false}],&#34;lastModifiedDate&#34;:null}">
-    <div class="disclaimer-heading">
-    
-    
-    <root>
-    <p>
-        &copy; National Australia Bank Limited.
-        <br>
-        
-    </p>
-    
+<div class="par iparys_inherited">
+<div class="footer">
+<broker-footer-module data-config='{"links":[{"href":"/content/nabbroker/en/about-us.html","icon":"","label":"About NAB","iconColor":null,"openInNewTab":false},{"href":"/content/nabbroker/en/customer-contact-centre.html","icon":"","label":"Customer Contact Centre","iconColor":null,"openInNewTab":false}],"lastModifiedDate":null}'>
+<div class="disclaimer-heading">
+<root>
+<p>
+        © National Australia Bank Limited.
+        <br/>
+</p>
 </root>
-
 </div>
-    <div class="disclaimer-placeholder">
-    
-    
-    <root>
-    <p>
+<div class="disclaimer-placeholder">
+<root>
+<p>
         ABN 12 004 044 937 AFSL and Australian Credit Licence 230686 (NAB). Use of information contained on this page is governed by Australian Law and is subject to the <a href="/disclaimer" rel="noopener noreferrer" target="_self" title="Disclaimer">disclaimers</a>. Please also read our <a href="https://www.nab.com.au/common/privacy-policy" rel="noopener noreferrer" target="_blank" title="Privacy Policy">privacy policy<span class="sr-only">, opens in a new window</span>
-            <svg aria-hidden="true" class="icon-svg" focusable="false" height="16px" viewbox="0 0 18 16" width="18px" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.658 2.035H13.71a.686.686 0 1 1 0-1.372h3.603c.38 0 .687.308.686.687l-.006 3.326a.686.686 0 0 1-1.372-.003l.003-1.666-4.902 4.903a.686.686 0 0 1-.97-.97l4.905-4.905zM1.372 3.988h7.025c.333 0 .603.308.603.686 0 .38-.27.686-.603.686H1.372v8.605h15.256v-4.72a.686.686 0 0 1 1.372 0v5.406a.686.686 0 0 1-.686.686H.686A.686.686 0 0 1 0 14.651V1.35C0 .969.307.663.686.663h8.731a.686.686 0 0 1 0 1.372H1.372v1.953z"></path>
-            </svg>
-        </a>.
+<svg aria-hidden="true" class="icon-svg" focusable="false" height="16px" viewbox="0 0 18 16" width="18px" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.658 2.035H13.71a.686.686 0 1 1 0-1.372h3.603c.38 0 .687.308.686.687l-.006 3.326a.686.686 0 0 1-1.372-.003l.003-1.666-4.902 4.903a.686.686 0 0 1-.97-.97l4.905-4.905zM1.372 3.988h7.025c.333 0 .603.308.603.686 0 .38-.27.686-.603.686H1.372v8.605h15.256v-4.72a.686.686 0 0 1 1.372 0v5.406a.686.686 0 0 1-.686.686H.686A.686.686 0 0 1 0 14.651V1.35C0 .969.307.663.686.663h8.731a.686.686 0 0 1 0 1.372H1.372v1.953z"></path>
+</svg>
+</a>.
     </p>
-    
 </root>
-
 </div>
 </broker-footer-module></div>
-
-    
-
 </div>
-
-    
-
 </footer>
-    
-
-    
-<script src="/etc.clientlibs/clientlibs/granite/jquery.lc-f9e8e8c279baf6a1a278042afe4f395a-lc.min.js"></script>
-<script src="/etc.clientlibs/clientlibs/granite/utils.lc-899004cc02c33efc1f6694b1aee587fd-lc.min.js"></script>
-<script src="/etc.clientlibs/clientlibs/granite/jquery/granite.lc-011c0fc0d0cf131bdff879743a353002-lc.min.js"></script>
-<script src="/etc.clientlibs/foundation/clientlibs/jquery.lc-dd9b395c741ce2784096e26619e14910-lc.min.js"></script>
-<script src="/etc.clientlibs/secure-app/clientlibs/clientlib-secure-app.lc-a1eec585ad7b816130a3db8c10d55a7b-lc.min.js"></script>
-<script src="/etc.clientlibs/secure-app/clientlibs/clientlib-nabbroker-all.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.js"></script>
 
 
 
@@ -457,32 +185,5 @@
 
 
 
-
-
-<script type="text/javascript" src="https://www.nabbroker.com.au/ns-content/broker-1.18.0/broker-web-elements.js"></script>
-
-
-
-
-
-
-<script charset='UTF-8'>
-    window['adrum-start-time'] = new Date().getTime();
-    (function(config){
-        config.appKey = "SY\u002DAAB\u002DJWP";
-        config.adrumExtUrlHttp = "http://cdn.appdynamics.com";
-        config.adrumExtUrlHttps = "https://cdn.appdynamics.com";
-        config.beaconUrlHttps = "https://syd-col.eum-appdynamics.com";
-        config.xd = {
-            enable : false
-        };
-        config.spa = {
-            "spa2": true
-        };
-        config.isZonePromise = true;
-    })(window['adrum-config'] || (window['adrum-config'] = {}));
-</script>
-<script src="https://x.nab.com.au/static-shared/nab/js/appd/adrum-23.3.0.4265.js" type='text/javascript' charset='UTF-8'></script>
-
-<script type="text/javascript"  src="/g4yNp-r-q25h_vsdvuDNg1LPE30/E3ONkh2JaLQ2/bGdLUXc/JH/AUb21DYFs"></script></body>
+</body>
 </html>
