@@ -1,3 +1,6 @@
 marker-pdf
 pypdf[crypto]>=5.0.0
 anthropic
+requests
+loguru
+bs4
