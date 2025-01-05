@@ -1,7 +1,7 @@
 import os
 import re
 import requests
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin
 from loguru import logger
 from bs4 import BeautifulSoup
 
@@ -35,13 +35,28 @@ class WebScraper():
         except Exception as e:
             logger.error(f"Error {repr(e)} for {url}")
             return ""
-      
-    def save_url(self, url:str) -> str:
+
+    def remove_script(self, html: str) -> str:
+        '''Remove script elements that cause session expired messages'''
+        soup = BeautifulSoup(html, 'html.parser')
+        for element in soup("script"):
+            element.decompose()
+
+        return str(soup)
+
+
+    def save_url(self, url:str, starting_page) -> str:
         '''Save the url to the download path and return the contents'''
         html_content = self.fetch_content(url)
-
+        html_content = self.remove_script(html_content)
+        if starting_page or self.search_only:
+            return html_content
+        
         full_path =  self.download_path + urlparse(url).path
         directory = os.path.dirname(full_path)
+
+        if full_path[-1] == "/":
+            full_path = full_path[-1] + ".html"
         
         if not os.path.exists(directory):
             os.makedirs(directory) 
@@ -90,10 +105,10 @@ class WebScraper():
                             links.append(href) 
         return links
     
-    def skip(self, url:str, depth:int):
+    def skip(self, url:str, depth:int, exclude:list[str]) -> bool:  
         """Check if the URL should be skipped"""
 
-        path = urlparse(url).path
+        path, extension = self.get_path(url)
         if path in self.cache:
             return True
         
@@ -104,13 +119,15 @@ class WebScraper():
             return True
 
         # Skip unwanted videos etc
-        extension = os.path.splitext(path)[-1].lower()
-        if extension not in [".html", ".aspx"]:
-            logger.info(f"Skipping unwanted extention  {url}")
+        if extension not in [".html", ".aspx", ""]:
+            logger.info(f"Skipping unwanted extention {extension} in {url}")
             return True
         
-        if "Logon.aspx" in path:
-            return True
+        # Skip unwanted URLs
+        for exclude_url in exclude:
+            if exclude_url in url:
+                logger.info(f"Skipping excluded {exclude_url}")
+                return True
         
         # Stop if depth is exceeded
         if depth and depth <= 0:
@@ -119,3 +136,20 @@ class WebScraper():
             return True
 
         return False
+    
+    def get_path(self, url:str) -> str:
+        path = urlparse(url).path
+        extension = os.path.splitext(path)[-1].lower()
+        if extension == "":
+            extension = ".html"        
+        
+        return path, extension
+        
+    def extract(self, html_content:str, depth:int, element:str) -> None:
+        soup = BeautifulSoup(html_content, features="html.parser")
+        for link in soup.select(f'{element} a'):
+            if href := link.get('href'):
+                if not urlparse(href).netloc:
+                    href = urljoin(self.domain, href)
+
+                self.scrape(href, depth=depth-1, starting_page=False)
