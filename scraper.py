@@ -12,6 +12,8 @@ class WebScraper():
         self.download_path = download_path
         self.class_names = class_names
         self.cache = set()
+        self.download = set()
+        self.bottomed_out = set()
         self.domain = domain
         self.session = requests.Session()
 
@@ -47,6 +49,8 @@ class WebScraper():
         logger.info(f"Downloading {url}")
         with open(full_path, 'w') as f:
             f.write(html_content)
+
+        self.download.add(url)
 
         return html_content
 
@@ -85,3 +89,33 @@ class WebScraper():
                                 print("Not an ASPX", href)
                             links.append(href) 
         return links
+    
+    def skip(self, url:str, depth:int):
+        """Check if the URL should be skipped"""
+
+        path = urlparse(url).path
+        if path in self.cache:
+            return True
+        
+        self.cache.add(path)
+    
+        if not url.startswith(self.domain):
+            logger.info(f"Skipping domain {url}")
+            return True
+
+        # Skip unwanted videos etc
+        extension = os.path.splitext(path)[-1].lower()
+        if extension not in [".html", ".aspx"]:
+            logger.info(f"Skipping unwanted extention  {url}")
+            return True
+        
+        if "Logon.aspx" in path:
+            return True
+        
+        # Stop if depth is exceeded
+        if depth and depth <= 0:
+            logger.info(f"Bottomed out at {depth} {url}")
+            self.bottomed_out.add(url)
+            return True
+
+        return False
