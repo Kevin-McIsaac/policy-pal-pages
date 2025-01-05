@@ -52,16 +52,14 @@ class WebScraper():
         if starting_page or self.search_only:
             return html_content
         
-        full_path =  self.download_path + urlparse(url).path
-        directory = os.path.dirname(full_path)
-
-        if full_path[-1] == "/":
-            full_path = full_path[-1] + ".html"
+        path, _ = self.get_path(url)
         
+        full_path =  self.download_path + path
+        directory = os.path.dirname(full_path)        
         if not os.path.exists(directory):
             os.makedirs(directory) 
 
-        logger.info(f"Downloading {url}")
+        logger.info(f"Downloading {url} to {full_path}")
         with open(full_path, 'w') as f:
             f.write(html_content)
 
@@ -141,14 +139,16 @@ class WebScraper():
         path = urlparse(url).path
         extension = os.path.splitext(path)[-1].lower()
         if extension == "":
-            extension = ".html"        
+            extension = ".html"   
+            path += ".html"    
         
         return path, extension
         
     def extract(self, html_content:str, depth:int, element:str) -> None:
         soup = BeautifulSoup(html_content, features="html.parser")
         for link in soup.select(f'{element} a'):
-            if href := link.get('href'):
+            href = link.get('href')     
+            if href and not href.startswith("#"):
                 if not urlparse(href).netloc:
                     href = urljoin(self.domain, href)
 
