@@ -5,7 +5,7 @@ This logs shows the current status of each ingestion
 ``
 
 1. Updated the scraper and extended to depth 16. Found 45 text/html files from 51 htm* files
-2. Ingested with latest HTML cleaner. Created 1,078 docs of average 316 words
+2. Ingested with latest HTML cleaner. Processed 45 files with 204,619 words into 553 docs of average 370 words
 
 
 ## STB,  6th, Jan 2005
