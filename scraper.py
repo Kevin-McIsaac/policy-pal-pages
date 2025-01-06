@@ -146,10 +146,12 @@ class WebScraper():
         
     def extract(self, html_content:str, depth:int, element:str) -> None:
         soup = BeautifulSoup(html_content, features="html.parser")
-        for link in soup.select(f'{element} a'):
-            href = link.get('href')     
-            if href and not href.startswith("#"):
-                if not urlparse(href).netloc:
-                    href = urljoin(self.domain, href)
-
-                self.scrape(href, depth=depth-1, starting_page=False)
+        for link in soup.select(f'{element} a'):     
+            if href := link.get('href'):
+                # logger.info(href)
+                url_parsed = urlparse(href)
+                if url_parsed.scheme in ['https', 'http', ''] and url_parsed.path != "" :                  
+                    if url_parsed.scheme == "":
+                        href = urljoin(self.domain, href)
+                
+                    self.scrape(href, depth=depth-1, starting_page=False)
