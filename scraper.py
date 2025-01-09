@@ -106,6 +106,13 @@ class WebScraper():
     def skip(self, url:str, depth:int, exclude:list[str]) -> bool:  
         """Check if the URL should be skipped"""
 
+        # Stop if depth is exceeded. Check before caching incase
+        # this url show up later in a higher layer. 
+        if depth and depth <= 0:
+            logger.info(f"Bottomed out at {depth} {url}")
+            self.bottomed_out.add(url)
+            return True
+
         path, extension = self.get_path(url)
         if path in self.cache:
             return True
@@ -127,11 +134,7 @@ class WebScraper():
                 logger.info(f"Skipping excluded {exclude_url}")
                 return True
         
-        # Stop if depth is exceeded
-        if depth and depth <= 0:
-            logger.info(f"Bottomed out at {depth} {url}")
-            self.bottomed_out.add(url)
-            return True
+
 
         return False
     
