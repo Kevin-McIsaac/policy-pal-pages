@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<!-- template name: html.form.login.template.html -->
+<!-- Configurable default behavior for the Remember Username checkbox -->
+<!-- set the checkbox to unchecked -->
+<!-- Storing login url in cookie for error retries -->
+<html dir="ltr" lang="en">
+<head>
+<title>Log on</title>
+<base href="https://signon.thirdparty.commbank.com.au/"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" name="viewport"/>
+<meta content="IE=edge" http-equiv="x-ua-compatible"/>
+<link href="assets/css/honeycomb.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="assets/css/commbroker.css" media="all" rel="stylesheet" type="text/css"/>
+
+
+
+
+</head>
+<body class="honeycomb" onload="setFocus();">
+<!-- CBA Header -->
+<div class="headerorigination bg-light" id="header-container">
+<div class="container-fluid">
+<div class="row">
+<div class="col-12">
+<header role="banner">
+<span class="icon-wrapper headerorigination-logo">
+<i aria-hidden="true" class="iconLogoCBASymbol40"></i>
+<span class="sr-only">Commonwealth Bank logo</span>
+</span>
+</header>
+</div>
+</div>
+</div>
+</div>
+<!-- Content -->
+<div class="content-container" onclick="handleTooltipClick(event, 'user-id-tooltip', '#user-id-input-tooltip')">
+<div class="diamond-outlines"></div>
+<main class="content single-column bg-light">
+<h1 class="Text24EmphasisLeft">
+                Log on
+            </h1>
+<form action="/as/qXN7Wq1hij/resume/as/authorization.ping" autocomplete="off" method="POST">
+<div class="ping-messages">
+</div>
+<!-- Username -->
+<div class="input-label Text14EmphasisLeft">
+<span class="tooltip tooltip--withicon" id="user-id-input-tooltip">
+<span class="d-inline-flex align-items-center user-id-tooltip-label" onclick="toggleUserIdTooltip('user-id-tooltip')" role="button" tabindex="0">
+<span class="tooltip__label">
+                                        User ID
+                                    </span>
+<span class="icon-wrapper tooltip__icon">
+<i class="iconControlInfo24"></i>
+</span>
+</span>
+<span class="tooltip__content tooltip__content--top tooltip__content--hide" hidden="hidden" id="user-id-tooltip">
+<span class="tooltip__content--text">
+                                        If you are a broker, do not include 'CF' preceding your user ID. For example, for user ID 'CFAB123', please enter 'AB123' only.
+                                    </span>
+<a class="close-button" onclick="toggleUserIdTooltip('user-id-tooltip')" role="button" title="Close">
+<span class="icon-wrapper">
+<i aria-hidden="true" class="iconControlClose24"></i>
+</span>
+</a>
+</span>
+</span>
+</div>
+<div class="form-field mb-3">
+<input aria-label="Username" autocapitalize="off" autocorrect="off" class="form-control" id="username" name="pf.username" onkeypress="return postOnReturn(event)" type="text" value=""/><!-- -->
+<p class="form-text invalid-feedback" id="username-required-text" style="display: none">
+<span class="icon-wrapper icon-sm">
+<i aria-hidden="true" class="iconMessageAlert16"></i>
+<span class="ml-1">
+                                        Enter your username
+                                    </span>
+</span>
+</p>
+</div>
+<!-- Password -->
+<div class="input-label Text14EmphasisLeft">
+                            Password
+                        </div>
+<div class="form-field__with-btn mb-4">
+<input aria-label="Password" class="form-control" id="password" name="pf.pass" onkeypress="return postOnReturn(event)" type="password"/>
+<button aria-label="show-pwd" class="btn-action-formfield" id="show_password" onclick="showHidePasswordField('password', 'show_password')" type="button">
+                                Show
+                            </button>
+<p class="form-text invalid-feedback" id="password-required-text" style="display: none">
+<span class="icon-wrapper icon-sm">
+<i aria-hidden="true" class="iconMessageAlert16"></i>
+<span class="ml-1">
+                                        Enter your password
+                                    </span>
+</span>
+</p>
+</div>
+<div class="pt-1 mb-3">
+<input name="pf.ok" type="hidden" value=""/>
+<input name="pf.cancel" type="hidden" value=""/>
+<span id="signOnButtonSpan">
+<a class="btn-action--emphasis" id="signOnButton" onclick="postOk();" role="button" tabindex="0" title="Log on">
+                                    Log on
+                                </a>
+</span>
+</div><!-- .ping-buttons -->
+<div class="ping-input-link ping-pass-change account-actions">
+<span>
+<a class="hyperlink-standalone" href="/as/qXN7Wq1hij/resume/as/authorization.ping?ChangePassword=true" tabindex="0">Change password</a>
+</span>
+<span>
+<input name="pf.passwordreset" type="hidden" value=""/>
+<a class="hyperlink-standalone" onclick="postForgotPassword();" role="button" tabindex="0">Forgot your password?</a>
+</span>
+<span>
+<a class="hyperlink-standalone" onclick="redirectToStaffLogin();" role="button" tabindex="0">Staff login</a>
+</span>
+</div>
+<!-- #recaptcha -->
+<input id="pf.adapterId" name="pf.adapterId" type="hidden" value="cbaBrokerHtmlLoginAdapter"/>
+</form>
+</main>
+</div>
+<!-- CBA Footer -->
+<div class="sticky-footer footerorigination bg-light shadow1" id="footer-container">
+<div class="footer-container">
+<footer class="footer-links py-4" role="contentinfo">
+<div class="Text14Left footerNav">
+<!-- TODO: Make environment specific -->
+<a class="hyperlink-clean" href="https://www.commbroker.com.au/Net/Documentum/footer/security-and-privacy.aspx" target="_blank">Security &amp; privacy</a>
+<a class="hyperlink-clean" href="https://www.commbroker.com.au/Net/Sitemap/default.aspx" target="_blank">Site Map</a>
+<a class="hyperlink-clean" href="https://www.commbroker.com.au/Net/Documentum/footer/important-information.aspx" target="_blank">Important information</a>
+<a class="hyperlink-clean" href="https://www.commbroker.com.au/Net/Documentum/footer/other-sites.aspx" target="_blank">Other sites</a>
+</div>
+</footer>
+</div>
+</div>
+
+</body>
+</html>
