@@ -29,7 +29,7 @@ class WebScraper():
             if response.status_code != 200:
                 logger.warning(f"Response {response.status} for {url}")
                 return ""
-        
+            
             return response.text
         
         except Exception as e:
@@ -44,16 +44,10 @@ class WebScraper():
 
         return str(soup)
 
+    def save_content(self, url, html_content):
+        '''Save html_content to file path in url'''
 
-    def save_url(self, url:str, starting_page) -> str:
-        '''Save the url to the download path and return the contents'''
-        html_content = self.fetch_content(url)
-        html_content = self.remove_script(html_content)
-        if starting_page or self.search_only:
-            return html_content
-        
         path, _ = self.get_path(url)
-        
         full_path =  self.download_path + path
         directory = os.path.dirname(full_path)        
         if not os.path.exists(directory):
@@ -65,28 +59,41 @@ class WebScraper():
 
         self.download.add(url)
 
-        return html_content
+    def save_url(self, url:str, starting_page) -> str:
+        '''Save the content at url to the download path in url'''
 
-    def aspx_link_to_html_link(self, aspx_url) -> list[str]:
+        html_content = self.fetch_content(url)
+        html_content = self.remove_script(html_content)
+
+        if not(starting_page or self.search_only):
+            self.save_content(url, html_content)
+            
+        return html_content
+    
+    def aspx_link_to_html_link(self, aspx_url) -> None:
         '''Extract the html links from the aspx file'''
         
         aspx_content = self.fetch_content(aspx_url)
-
+        
         # Links in dynamic content function
         pattern = r'LoadDynamicContent\(([^,)]+),([^,)]+),([^,)]+)\)'
         matches = re.findall(pattern, aspx_content)
-        if len(matches) >0 :
+        
+        if len(matches) > 0 :
             # return  [urljoin(arg1,arg2) for arg1, arg2, _ in matches]
-            return  [(arg1 + arg2).replace('"', '').replace(' ', '') for arg1, arg2, _ in matches]
-        
+            html_urls =  [(arg1 + arg2).replace('"', '').replace(' ', '') for arg1, arg2, _ in matches]
+        else:
         # or links in an input tag
-        pattern = r'<input[^>]*value="([^"]*\.html)"[^>]*>'
-        matches = re.findall(pattern, aspx_content, re.DOTALL)
-        if matches:
-            return matches
+            pattern = r'<input[^>]*value="([^"]*\.html)"[^>]*>'
+            html_urls = re.findall(pattern, aspx_content, re.DOTALL)
         
-        logger.warning(f"{aspx_url} no html URL")
-        return []
+        if len(html_urls) == 0:
+            logger.warning(f"No urls in apsx {aspx_url}")
+            return None
+        elif len(html_urls) > 1:
+            logger.warning(f"Too many urls in aspx {aspx_url}: {html_urls}")
+        
+        return html_urls[0]
         
     def fetch_html_links(self, html_page) -> list[str]:
         '''Find all the links in the page'''
