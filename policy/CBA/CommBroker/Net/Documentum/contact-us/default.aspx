@@ -5,7 +5,7 @@
 <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
 <meta content="" http-equiv="keywords"/>
 <meta content="" http-equiv="description"/>
-<meta content="18 Dec 2024 14:39:01 AEDT" http-equiv="Last-Modified"/><meta content="default" name="title"/>
+<meta content="13 Feb 2025 13:36:35 AEDT" http-equiv="Last-Modified"/><meta content="default" name="title"/>
 
 <link href="https://www.commbank.com.au//etc/designs/default/favicon.ico" rel="icon" type="image/vnd.microsoft.icon"/>
 <link href="https://www.commbank.com.au//etc/designs/default/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
@@ -41,6 +41,93 @@
 </div>
 <div class="text parbase">
 <p style="text-align: right;"><span style="font-size: 10pt;"><span style="font-size: 10pt;"><a adhocenable="false" href="https://www.commbroker.com.au/app/cpv/portfolio-loans" target="_blank">Back to Home</a></span></span></p>
+<table border="1" cellpadding="1" cellspacing="0">
+<tbody>
+<tr>
+<th colspan="2" scope="col" style="text-align: center;"><span style="font-size: 10pt;">When to use CommBroker - Your Applications</span></th>
+</tr>
+<tr>
+<td>
+<ul>
+<li><span style="font-size: 10pt;">Service Level Agreements &amp; Status Updates</span></li>
+<li><span style="font-size: 10pt;">Confirming if documents/exception responses are imaged to file</span></li>
+<li><span style="font-size: 10pt;">Additional Products Set-Up</span></li>
+<li><span style="font-size: 10pt;">Escalation follow-ups</span></li>
+<li><span style="font-size: 10pt;">Exceptions</span></li>
+<li><span style="font-size: 10pt;">Confirming loan/guarantor documents have been received</span></li>
+<li><span style="font-size: 10pt;">Settlement Date</span></li>
+</ul> </td>
+<td>
+<ul>
+<li><span style="font-size: 10pt;">Funds available at settlement</span></li>
+<li><span style="font-size: 10pt;">Equity/Surplus account details/approved amount</span></li>
+<li><span style="font-size: 10pt;">Debts being repaid at settlement</span></li>
+<li><span style="font-size: 10pt;">Construction – Undrawn Funds</span></li>
+<li><span style="font-size: 10pt;">Construction – if invoice has been received/paid/next stage due</span></li>
+<li><span style="font-size: 10pt;">Disbursement details after settlement</span></li>
+</ul> </td>
+</tr>
+<tr>
+<th colspan="2" style="text-align: center;"><span style="font-size: 10pt;"> When to use Commbroker – Processes/Contact Us:</span></th>
+</tr>
+<tr>
+<td>
+<ul>
+<li><span style="font-size: 10pt;">DigiDocs – process/eligibility requirements</span></li>
+<li><span style="font-size: 10pt;">Witness Requirements</span></li>
+<li><span style="font-size: 10pt;">Guarantor documents process</span></li>
+<li><span style="font-size: 10pt;">Construction Process Information</span></li>
+<li><span style="font-size: 10pt;">Switches</span></li>
+</ul> </td>
+<td>
+<ul>
+<li><span style="font-size: 10pt;">Moving refinance PEXA settlement date</span></li>
+<li><span style="font-size: 10pt;">Where to return loan documents</span></li>
+<li><span style="font-size: 10pt;">FastRefi Process Questions</span></li>
+<li><span style="font-size: 10pt;">Bridging Loans Process/Extensions</span></li>
+<li><span style="font-size: 10pt;">Rate locks</span></li>
+</ul> </td>
+</tr>
+<tr>
+<th colspan="2" style="text-align: center;"><span style="font-size: 10pt;"> When to use Commbroker – Processes/Contact Us:</span></th>
+</tr>
+<tr>
+<td>
+<ul>
+<li><span style="font-size: 10pt;">Discussing or disputing approval/settlement conditions raised (Credit Assessor)</span></li>
+<li><span style="font-size: 10pt;">Clarifying/disputing or assistance with resolving exceptions</span></li>
+<li><span style="font-size: 10pt;">Reissue Homeseeker/Commencement letter</span></li>
+<li><span style="font-size: 10pt;">DigiDocs issues (access issues, errors)</span></li>
+<li><span style="font-size: 10pt;">Loan Document errors</span></li>
+</ul> </td>
+<td>
+<ul>
+<li><span style="font-size: 10pt;">If wanting to alter assessment</span></li>
+<li><span style="font-size: 10pt;">Discuss loan structure (Credit Assessor)</span></li>
+<li><span style="font-size: 10pt;">To change document issue method/arrange documents to be reissued</span></li>
+<li><span style="font-size: 10pt;">Disputing funds available</span></li>
+</ul> </td>
+</tr>
+<tr>
+<th colspan="2" style="text-align: center;"><span style="font-size: 10pt;"> When to call the assessor/case owner:</span></th>
+</tr>
+<tr>
+<td colspan="2" style="text-align: center;"><span style="font-size: 10pt;"><b>Please contact the Case Owner only for matters directly related to their stage of the application</b></span></td>
+</tr>
+<tr>
+<td>
+<ul>
+<li><span style="font-size: 10pt;">To raise an escalation (including same/next day settlement bookings)</span></li>
+<li><span style="font-size: 10pt;">When enquiring about files not accessible on commbroker (discharges etc)</span></li>
+</ul> </td>
+<td>
+<ul>
+<li><span style="font-size: 10pt;">For PEXA/SSR settlement information not listed in commbroker comments</span></li>
+</ul> </td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: left;"><span style="font-size: 10pt;"> </span></p>
 <table border="1" cellpadding="1" cellspacing="0" width="75%">
 <tbody>
 <tr>
@@ -73,11 +160,7 @@
 <td><p><span style="font-size: 10pt;"><span style="font-size: 10pt;"><b>Option 1</b></span></span></p>
 <ul>
 <li><span style="font-size: 10pt;"><span style="font-size: 10pt;">8:30am to 6:00pm Monday to Friday (AEST)</span></span></li>
-</ul> <p><span style="font-size: 10pt;"><span style="font-size: 10pt;"> </span></span></p> <p><span style="font-size: 10pt;">Please note our operating hours during the holiday season: </span></p> <p><span style="font-size: 10pt;"><b>Option 1 </b></span></p>
-<ul>
-<li><span style="font-size: 10pt;"><b>Tuesday 24 December 2024 </b>will be closed at 3.00pm (AEST)<br/> </span></li>
-<li><span style="font-size: 10pt;">From <b>Friday 27 December 2024 – Friday 3 January 2025</b> will be closed. <br/> Normal operating hours will recommence from <b>Monday 6 January 2025</b>. <br/> <br/> </span></li>
-</ul> </td>
+</ul> <p><span style="font-size: 10pt;"> </span></p> </td>
 </tr>
 <tr>
 <td><p><span style="font-size: 10pt;"><span style="font-size: 10pt;"> <b>CommBank Broker Support Hub</b></span></span></p> <p><span style="font-size: 10pt;"><span style="font-size: 10pt;"><b>Option 2: Home Loan Escalations and Urgent Files</b></span></span></p> <p><span style="font-size: 10pt;"><span style="font-size: 10pt;">Assists With:</span></span></p>
@@ -96,28 +179,12 @@
 </ul> </td>
 </tr>
 <tr>
-<td><p><span style="font-size: 10pt;"><span style="font-size: 10pt;"><b> Other Enquiries On Current Files:</b></span></span></p> <p><span style="font-size: 10pt;"><span style="font-size: 10pt;"><b>Including:</b></span></span></p>
-<ul>
-<li><span style="font-size: 10pt;"><span style="font-size: 10pt;">Status Updates</span></span></li>
-<li><span style="font-size: 10pt;"><span style="font-size: 10pt;">Service Level Agreements</span></span></li>
-<li><span style="font-size: 10pt;"><span style="font-size: 10pt;">Outstanding Exceptions</span></span></li>
-<li><span style="font-size: 10pt;"><span style="font-size: 10pt;">Documents Issue Method</span></span></li>
-<li><span style="font-size: 10pt;"><span style="font-size: 10pt;">Confirming if loan documents have been received</span></span></li>
-<li><span style="font-size: 10pt;"><span style="font-size: 10pt;">Proposed settlement dates &amp; Settlement status</span></span></li>
-<li><span style="font-size: 10pt;"><span style="font-size: 10pt;">Equity/Surplus Funds Account Details</span></span></li>
-<li><span style="font-size: 10pt;"><span style="font-size: 10pt;">Completed Progress Payments</span></span></li>
-<li><span style="font-size: 10pt;"><span style="font-size: 10pt;">Disbursement Details</span></span></li>
-</ul> </td>
-<td><p><span style="font-size: 10pt;"><span style="font-size: 10pt;">Refer to Commbroker “YourApplications” for current status and “Notes To Broker” for any updates</span></span></p> <p><span style="font-size: 10pt;"><span style="font-size: 10pt;"><b>Or</b></span></span></p> <p><span style="font-size: 10pt;"><span style="font-size: 10pt;">Contact Case Owner as per “Notes To Broker” on application</span></span></p> </td>
-<td><p><span style="font-size: 10pt;"><span style="font-size: 10pt;"><b>Refer to YourApplications.</b></span></span></p> <p><span style="font-size: 10pt;"><span style="font-size: 10pt;">Case Owner/Assesor details are found “Notes To Broker” and will include contact details and working hours.</span></span></p> </td>
-</tr>
-<tr>
 <td><p><span style="font-size: 10pt;"><span style="font-size: 10pt;"><b>Government Guarantees</b></span></span></p> <p><span style="font-size: 10pt;"><span style="font-size: 10pt;"><b>Assists with:</b></span></span></p>
 <ul>
 <li><span style="font-size: 10pt;"><span style="font-size: 10pt;">Clarifying/disputing exceptions</span></span></li>
 <li><span style="font-size: 10pt;"><span style="font-size: 10pt;">Requesting case owner calls</span></span></li>
 </ul> </td>
-<td><span style="font-size: 10pt;"><a adhocenable="false" href="mailto:homeguaranteescheme@cba.com.au" target="_blank"><span style="font-size: 10pt;">homeguaranteescheme@cba.com.au</span></a></span></td>
+<td><span style="font-size: 10pt;"><span style="font-size: 10pt;"><a adhocenable="false" href="mailto:homeguaranteescheme@cba.com.au" target="_blank">homeguaranteescheme@cba.com.au</a></span></span></td>
 <td><p><span style="font-size: 10pt;"><span style="font-size: 10pt;"><b>Emails can be sent at any time, and will be actioned between:</b></span></span></p>
 <ul>
 <li><span style="font-size: 10pt;"><span style="font-size: 10pt;">9:00am – 5:00pm Monday to Friday (AEST)<br/>  </span></span></li>
@@ -133,6 +200,11 @@
 </ul> </td>
 <td><p><span style="font-size: 10pt;"><span style="font-size: 10pt;">13 22 21</span></span></p> <p><span style="font-size: 10pt;"><span style="font-size: 10pt;"><b>Note: </b>This number is for customers only.</span></span></p> <p><span style="font-size: 10pt;"><span style="font-size: 10pt;">Brokers can reach out to the Document Fulfillment Case Owner for further assistance.</span></span></p> </td>
 <td><span style="font-size: 10pt;"><span style="font-size: 10pt;">8am - 8pm (AEST)</span></span></td>
+</tr>
+<tr>
+<td><span style="font-size: 10pt;"><b>Locating Signed Loan Documents</b></span></td>
+<td><p><span style="font-size: 10pt;"><b>For Documents Returned Via Mail/Post With A Tracking Number Showing As Delivered:</b></span></p> <p><span style="font-size: 10pt;">Email LoanDocProcessing@cba.com.au</span></p> <p><span style="font-size: 10pt;">With the application number only in the subject line, with the tracking number and date delivered.</span></p> <p><span style="font-size: 10pt;"><b>For Documents Returned Via DigiDocs/Branch:</b></span></p> <p><span style="font-size: 10pt;">Please refer to Escalation Criteria page for next steps</span></p> </td>
+<td><span style="font-size: 10pt;">Please ensure all required information is included in your email. Emails received without all required information will not be actioned.</span></td>
 </tr>
 <tr>
 <td><p><span style="font-size: 10pt;"><span style="font-size: 10pt;"><b>Refinance PEXA Bookings</b></span></span></p> <p><span style="font-size: 10pt;"><span style="font-size: 10pt;"><b>If the file is:</b></span></span></p>

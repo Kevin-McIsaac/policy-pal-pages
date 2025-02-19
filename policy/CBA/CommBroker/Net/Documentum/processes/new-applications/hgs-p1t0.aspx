@@ -5,7 +5,7 @@
 <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
 <meta content="" http-equiv="keywords"/>
 <meta content="" http-equiv="description"/>
-<meta content="11 Dec 2024 21:01:36 AEDT" http-equiv="Last-Modified"/><meta content="first-home-loan-deposit-scheme" name="title"/>
+<meta content="18 Feb 2025 14:19:55 AEDT" http-equiv="Last-Modified"/><meta content="first-home-loan-deposit-scheme" name="title"/>
 
 <link href="https://www.commbank.com.au//etc/designs/default/favicon.ico" rel="icon" type="image/vnd.microsoft.icon"/>
 <link href="https://www.commbank.com.au//etc/designs/default/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
@@ -406,7 +406,7 @@
 <li><span style="font-size: 10pt;"><span style="font-size: 10pt;"><span>Once your scheme is secured, your customers must sign a Contract of Sale (COS) to purchase or build an eligible property before the 90 days expire.</span></span></span></li>
 <li><span style="font-size: 10pt;"><span style="font-size: 10pt;"><span>For customers who have signed a contract within 90 days, where we are unable to issue a Guarantee before the expiry of the 90 days (E.g. as-if-complete valuations), only one extension can be requested. Extensions are only granted for a further 30 days.</span></span></span></li>
 <li><span style="font-size: 10pt;"><span style="font-size: 10pt;"><span>Customers who haven’t found a property within 90 days will lose their scheme reservation place, and must reapply to be able to participate in a Home Guarantee Scheme.</span></span></span></li>
-<li><span style="font-size: 10pt;"><span style="font-size: 10pt;"><span>Where your customer isn’t proceeding with a Scheme place, or is no longer eligible, email the CBA Home Guarantee Scheme Team using Template 3 so they can complete the withdrawal: <a adhocenable="false" href="mailto:HomeGuaranteeScheme@cba.com.au." target="_blank">HomeGuaranteeScheme@cba.com.au.</a><br/> </span></span></span></li>
+<li><span style="font-size: 10pt;"><span style="font-size: 10pt;"><span>Where your customer isn’t proceeding with a Scheme place, or is no longer eligible, email the CBA Home Guarantee Scheme Team using Template 3 so they can complete the withdrawal: <a adhocenable="false" href="mailto:HomeGuaranteeScheme@cba.com.au" target="_blank">HomeGuaranteeScheme@cba.com.au</a><br/> </span></span></span></li>
 </ul> </td>
 <td>
 <ul>
