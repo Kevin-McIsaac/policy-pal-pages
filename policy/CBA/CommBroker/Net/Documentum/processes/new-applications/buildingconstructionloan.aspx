@@ -5,7 +5,7 @@
 <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
 <meta content="" http-equiv="keywords"/>
 <meta content="" http-equiv="description"/>
-<meta content="6 Nov 2024 14:26:09 AEDT" http-equiv="Last-Modified"/><meta content="buildingconstructionloan" name="title"/>
+<meta content="20 Feb 2025 11:04:34 AEDT" http-equiv="Last-Modified"/><meta content="buildingconstructionloan" name="title"/>
 
 <link href="https://www.commbank.com.au//etc/designs/default/favicon.ico" rel="icon" type="image/vnd.microsoft.icon"/>
 <link href="https://www.commbank.com.au//etc/designs/default/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
@@ -111,8 +111,8 @@
 <li><span style="font-size: 10pt;"><span style="font-size: 10pt;"><span>Council approved plans (by private certifier or council directly)*.</span></span></span></li>
 <li><span style="font-size: 10pt;"><span style="font-size: 10pt;"><span>Contract variations (where applicable).</span></span></span></li>
 <li><span style="font-size: 10pt;"><span style="font-size: 10pt;"><span>Quotes for any Out of Contract items (where applicable).</span></span></span></li>
-<li><span style="font-size: 10pt;"><span style="font-size: 10pt;"><span><a adhocenable="false" href="https://www.commbroker.com.au/Net/Documentum/credit-policy/satisfactory-security/residential-building-signed-contract.aspx">Builder's contract of work insurance</a>.</span></span></span></li>
-<li><span style="font-size: 10pt;"><span style="font-size: 10pt;"><span><a adhocenable="false" href="https://www.commbroker.com.au/Net/Documentum/credit-policy/satisfactory-security/residential-building-signed-contract.aspx">Public liability insurance</a>.</span></span></span></li>
+<li><span style="font-size: 10pt;"><span style="font-size: 10pt;"><span><a adhocenable="false" href="/Net/Documentum/credit-policy/satisfactory-security/building-construction-loan-policy.aspx">Builder's contract of work insurance</a>.</span></span></span></li>
+<li><span style="font-size: 10pt;"><span style="font-size: 10pt;"><span><a adhocenable="false" href="/Net/Documentum/credit-policy/satisfactory-security/building-construction-loan-policy.aspx">Public liability insurance</a>.</span></span></span></li>
 <li><span style="font-size: 10pt;"><span style="font-size: 10pt;"><span>Builders Licence (also referred to as Registered Builders)<br/> </span></span></span></li>
 </ul>
 <div>
