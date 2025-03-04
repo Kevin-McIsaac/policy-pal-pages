@@ -71,3 +71,13 @@ Repayment Reducer is Quarantined and no longer available.
 Extra Home Loan / Investment Home Loan (Introductory Variable Rate) is Quarantined and no longer available.
 
 [Quarantined October 2020](https://www.commbroker.com.au/Net/Documentum/products/home-loan-products/quarantined-products/ehir.aspx)
+
+## Professionals Package
+The **Professionals Offer** allows **Eligible Professionals** to apply to have Lender's Mortgage Insurance (LMI) and Low Deposit Premium (LDP)  waived.
+
+Eligible Professionals includes
+- **Financial Professionals**: eg., Accountants, Actuaries, Auditors, Chief Financial Officers, Directors, Partners
+- **Legal Professionals**: Lawyers, Solicitors, Barristers, Partners
+- **Medical Professionals**:  such as Doctors, Suggions, Pharmacologists, General Practitioners, Pharmacists, Veterinarians
+
+The  **Medical Professionals Package** and the **Medico Plus+ Package** are only available to Medical Professionals and can't be used by other professionals such as Finance Professionals and Legal Professionals.
