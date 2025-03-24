@@ -3,3 +3,4 @@ anthropic
 requests
 loguru
 bs4
+crawl4ai
