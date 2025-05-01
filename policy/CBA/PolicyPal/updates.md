@@ -84,4 +84,4 @@ The  **Medical Professionals Package** and the **Medico Plus+ Package** are only
 
 ## How does the maximum LVR vary by profession 
 
-    CBA (Commonwealth Bank) provides standard home loans up to 80% LVR without LMI and up to 95% LVR with LMI. Medical professionals receive significant advantages through the "Medico Plus+" package, allowing 95% (actually 94.99%) LVR without LMI, for both owner-occupied and investment property purchases with property values up to $3,500,000. 
+CBA (Commonwealth Bank) provides standard home loans up to 80% LVR without LMI and up to 95% LVR with LMI. Medical professionals receive significant advantages through the "Medico Plus+" package, allowing 95% (actually 94.99%) LVR without LMI, for both owner-occupied and investment property purchases with property values up to $3,500,000. 
